@@ -1,0 +1,3158 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="hijau-putih">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ================================================================
+     SEO & OPEN GRAPH — GANTI MANUAL TIAP AGENT
+     ================================================================ -->
+<title>H. Yusuf Ismail — Agent Resmi Salam Travel Sumenep</title>
+<meta name="description" content="Konsultasi umroh langsung dengan H. Yusuf Ismail, Agent Resmi Salam Travel Sumenep. Sistem PAS — berangkat dulu, baru bayar. Divalidasi Bank BSI.">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="H. Yusuf Ismail | Agent Resmi Salam Travel Sumenep">
+<meta property="og:description" content="Umroh Dulu. Baru Bayar. Sistem PAS satu-satunya di Indonesia — divalidasi Bank BSI.">
+<meta property="og:image" content="https://salamku.pro/wp-content/uploads/2026/06/Umroh-dan-Haji-03.jpg">
+<meta property="og:url" content="https://profilink.id/salamtravel/haji-ucup">
+<!-- ================================================================ -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Lora:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<style>
+/* ============================================================
+   DESIGN TOKENS — ganti warna & font cukup di sini
+   ============================================================ */
+:root {
+  /* === WARNA === */
+  --c-bg:          #FFFFFF;
+  --c-bg-alt:      #F0F7F2;
+  --c-bg-card:     #FFFFFF;
+  --c-primary:     #1B6B3A;
+  --c-primary-dk:  #134d2a;
+  --c-primary-lt:  #E8F5EE;
+  --c-accent:      #C9A84C;
+  --c-accent-lt:   #FDF6E3;
+  --c-text:        #1A1A1A;
+  --c-text-2:      #6B7280;
+  --c-text-3:      #9CA3AF;
+  --c-border:      #E5E7EB;
+  --c-border-2:    #D1D5DB;
+  --c-wa:          #25D366;
+
+  /* === FONT === */
+  --f-display: 'Lora', Georgia, serif;
+  --f-body:    'Plus Jakarta Sans', sans-serif;
+
+  /* === LAYOUT === */
+  --w-mobile:  520px;
+  --w-desktop: 780px;
+  --r-sm:      8px;
+  --r-md:      12px;
+  --r-lg:      18px;
+  --r-xl:      24px;
+
+  /* === EFEK === */
+  --shadow-sm: 0 1px 4px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.10);
+  --trans: 0.22s ease;
+}
+
+/* ============================================================
+   RESET & BASE
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 15px; }
+body {
+  font-family: var(--f-body);
+  background: var(--c-bg);
+  color: var(--c-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+img { max-width: 100%; display: block; }
+a { text-decoration: none; color: inherit; }
+button { border: none; background: none; cursor: pointer; font-family: var(--f-body); }
+
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+.wrap {
+  width: 100%;
+  max-width: var(--w-mobile);
+  margin: 0 auto;
+  padding: 0 18px;
+}
+@media (min-width: 768px) {
+  .wrap { max-width: var(--w-desktop); padding: 0 32px; }
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 12px 22px;
+  border-radius: var(--r-sm);
+  font-size: 14px;
+  font-weight: 600;
+  transition: all var(--trans);
+  white-space: nowrap;
+  border: 2px solid transparent;
+}
+.btn-nav-wa {
+  background: transparent !important;
+  color: #1B6B3A !important;
+  border: 1.5px solid #1B6B3A !important;
+  padding: 6px 14px !important;
+  font-size: 12px !important;
+  border-radius: 100px !important;
+}
+.btn-nav-wa:hover {
+  background: var(--c-primary-lt) !important;
+}
+.btn-nav-wa i {
+  color: #1B6B3A !important;
+}
+.btn-primary {
+  background: var(--c-primary);
+  color: #fff !important;
+  border-color: var(--c-primary);
+}
+.btn-primary:hover {
+  background: var(--c-primary-dk);
+  border-color: var(--c-primary-dk);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+.btn-accent {
+  background: var(--c-accent);
+  color: #fff;
+  border-color: var(--c-accent);
+}
+.btn-accent:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+.btn-outline {
+  background: transparent;
+  color: var(--c-primary);
+  border-color: var(--c-primary);
+}
+.btn-outline:hover {
+  background: var(--c-primary-lt);
+}
+.btn-wa {
+  background: var(--c-wa);
+  color: #fff;
+  border-color: var(--c-wa);
+}
+.btn-wa:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(37,211,102,0.3);
+}
+.btn-block { width: 100%; }
+.btn-sm { padding: 8px 16px; font-size: 13px; }
+.btn-lg { padding: 15px 28px; font-size: 15px; }
+
+/* ============================================================
+   SECTION TYPOGRAPHY
+   ============================================================ */
+.sec-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--c-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.sec-eyebrow::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--c-accent);
+  border-radius: 2px;
+}
+.sec-title {
+  font-family: var(--f-display);
+  font-size: clamp(26px, 7vw, 38px);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--c-text);
+  margin-bottom: 12px;
+}
+.sec-title em { color: var(--c-primary); font-style: italic; }
+.sec-desc {
+  font-size: 14px;
+  color: var(--c-text-2);
+  line-height: 1.75;
+  margin-bottom: 32px;
+  max-width: 420px;
+}
+
+/* ============================================================
+   NAVBAR
+   ============================================================ */
+.navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 900;
+  padding: 10px 0;
+  transition: background 0.35s, box-shadow 0.35s;
+}
+.navbar.scrolled {
+  background: rgba(255,255,255,0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.06);
+}
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: var(--w-desktop);
+  margin: 0 auto;
+  padding: 0 18px;
+}
+.nav-agent-photo {
+  position: relative;
+  flex-shrink: 0;
+}
+.nav-agent-photo img,
+.nav-avatar {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--c-primary);
+}
+.nav-avatar {
+  background: var(--c-primary);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--f-display);
+  font-size: 17px; font-weight: 700;
+  color: #fff;
+}
+.nav-online {
+  position: absolute; bottom: 1px; right: 1px;
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: #22c55e;
+  border: 2px solid #fff;
+}
+.nav-info { flex: 1; min-width: 0; }
+.nav-name {
+  font-size: 13px; font-weight: 700;
+  color: var(--c-text);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  line-height: 1.2;
+}
+.nav-badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 10px; font-weight: 600;
+  color: var(--c-primary);
+  background: var(--c-primary-lt);
+  border: 1px solid rgba(27,107,58,0.2);
+  border-radius: 100px;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding-top: 64px;
+}
+.hero-bg {
+  position: absolute; inset: 0;
+  background-size: cover;
+  background-position: center top;
+}
+.hero-bg::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(
+    170deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,0.08) 30%,
+    rgba(0,0,0,0.55) 65%,
+    rgba(0,0,0,0.85) 100%
+  );
+}
+.hero-content {
+  position: relative; z-index: 2;
+  padding: 0 0 40px;
+  width: 100%;
+}
+.hero-brand {
+  margin-bottom: 16px;
+}
+.hero-brand img {
+  height: 32px;
+  width: auto;
+  filter: brightness(0) invert(1);
+}
+.hero-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 16px;
+}
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 11px; font-weight: 600;
+  border-radius: 100px;
+  padding: 4px 12px;
+}
+.hero-badge-white {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.3);
+  color: #fff;
+}
+.hero-badge-accent {
+  background: var(--c-accent);
+  color: #fff;
+}
+.hero-title {
+  font-family: var(--f-display);
+  font-size: clamp(24px, 6.5vw, 42px);
+  font-weight: 700;
+  line-height: 1.15;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.hero-title .gold { color: var(--c-accent); }
+.hero-sub {
+  font-family: var(--f-body);
+  font-size: clamp(13px, 3.5vw, 15px);
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.7;
+  max-width: 340px;
+  margin-bottom: 14px;
+}
+.hero-desc {
+  display: none;
+}
+.hero-cta { display: flex; gap: 10px; flex-wrap: wrap; }
+
+/* trust bar bawah hero */
+.hero-trust {
+  display: flex;
+  gap: 0;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: var(--r-md);
+  margin-top: 28px;
+  overflow: hidden;
+}
+.hero-trust-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 8px;
+  border-right: 1px solid rgba(255,255,255,0.15);
+  text-align: center;
+}
+.hero-trust-item:last-child { border-right: none; }
+.hero-trust-val {
+  font-family: var(--f-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--c-accent);
+  line-height: 1;
+}
+.hero-trust-lbl {
+  font-size: 8.5px;
+  color: rgba(255,255,255,0.7);
+  margin-top: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  text-align: center;
+  word-break: keep-all;
+}
+
+/* ============================================================
+   SECTION: MENGAPA PILIH SAYA (layanan agent)
+   ============================================================ */
+.layanan { padding: 64px 0; background: var(--c-bg); }
+.layanan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 28px;
+}
+@media (min-width: 480px) {
+  .layanan-grid { grid-template-columns: repeat(3, 1fr); }
+}
+.layanan-card {
+  background: var(--c-bg-alt);
+  border-radius: var(--r-md);
+  padding: 18px 14px;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: all var(--trans);
+}
+.layanan-card:hover {
+  border-color: var(--c-primary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+.layanan-icon {
+  width: 44px; height: 44px;
+  background: var(--c-primary-lt);
+  border-radius: var(--r-sm);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px;
+  color: var(--c-primary);
+  margin: 0 auto 10px;
+}
+.layanan-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--c-text);
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+.layanan-desc {
+  font-size: 11.5px;
+  color: var(--c-text-2);
+  line-height: 1.5;
+}
+
+/* ============================================================
+   SECTION: SISTEM PAS
+   ============================================================ */
+.pas { padding: 64px 0; background: var(--c-bg-alt); }
+.pas-steps { margin-top: 28px; display: flex; flex-direction: column; gap: 0; }
+.pas-step {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding-bottom: 28px;
+  position: relative;
+  opacity: 0; transform: translateY(18px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+.pas-step.visible { opacity: 1; transform: none; }
+.pas-step:last-child { padding-bottom: 0; }
+.pas-step-left { display: flex; flex-direction: column; align-items: center; flex-shrink: 0; }
+.pas-num {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: var(--c-primary);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--f-display);
+  font-size: 16px; font-weight: 700;
+  color: #fff;
+  position: relative; z-index: 1;
+  box-shadow: 0 0 0 4px var(--c-primary-lt);
+}
+.pas-line {
+  width: 2px; flex: 1;
+  background: linear-gradient(to bottom, var(--c-primary), rgba(27,107,58,0.1));
+  margin-top: 6px;
+  min-height: 36px;
+}
+.pas-step:last-child .pas-line { display: none; }
+.pas-body { padding-top: 5px; }
+.pas-body h3 {
+  font-family: var(--f-display);
+  font-size: 18px; font-weight: 600;
+  color: var(--c-text);
+  margin-bottom: 5px;
+}
+.pas-body p { font-size: 13px; color: var(--c-text-2); line-height: 1.7; }
+.pas-hl { color: var(--c-primary); font-weight: 600; }
+.pas-bsi {
+  margin-top: 28px;
+  background: #fff;
+  border: 1.5px solid rgba(27,107,58,0.2);
+  border-radius: var(--r-md);
+  padding: 16px;
+  display: flex; align-items: center; gap: 14px;
+}
+.pas-bsi-logo {
+  width: 42px; height: 42px;
+  background: linear-gradient(135deg, #00703c, #004d29);
+  border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; color: #fff;
+  flex-shrink: 0;
+}
+.pas-bsi-text p { font-size: 11px; color: var(--c-text-2); margin-bottom: 2px; }
+.pas-bsi-text strong { font-family: var(--f-display); font-size: 15px; color: var(--c-text); }
+
+/* ============================================================
+   SECTION: PAKET UMROH
+   ============================================================ */
+.paket { padding: 64px 0; background: var(--c-bg); }
+.filter-tabs {
+  display: flex; gap: 8px; flex-wrap: wrap;
+  margin: 20px 0 20px;
+}
+.tab {
+  padding: 6px 16px;
+  border-radius: 100px;
+  font-size: 12.5px; font-weight: 600;
+  border: 1.5px solid var(--c-border-2);
+  color: var(--c-text-2);
+  transition: all var(--trans);
+}
+.tab.active {
+  background: var(--c-primary);
+  border-color: var(--c-primary);
+  color: #fff;
+}
+.tab:not(.active):hover {
+  border-color: var(--c-primary);
+  color: var(--c-primary);
+}
+.paket-list { display: flex; flex-direction: column; gap: 14px; }
+.paket-card {
+  background: var(--c-bg-card);
+  border: 1.5px solid var(--c-border);
+  border-radius: var(--r-lg);
+  padding: 20px;
+  display: none;
+  transition: border-color var(--trans), box-shadow var(--trans), transform var(--trans);
+  box-shadow: var(--shadow-sm);
+}
+.paket-card.show { display: block; }
+.paket-card.featured {
+  border-color: var(--c-primary);
+  box-shadow: 0 0 0 3px var(--c-primary-lt), var(--shadow-md);
+}
+.paket-card:hover {
+  border-color: var(--c-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+.paket-head { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 12px; gap: 8px; }
+.paket-badge {
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 4px 10px; border-radius: 100px;
+  display: inline-flex; align-items: center; gap: 4px;
+}
+.badge-best { background: var(--c-primary); color: #fff; }
+.badge-hemat { background: var(--c-accent-lt); color: var(--c-accent); border: 1px solid rgba(201,168,76,0.3); }
+.badge-premium { background: var(--c-primary-lt); color: var(--c-primary); border: 1px solid rgba(27,107,58,0.2); }
+.paket-name {
+  font-family: var(--f-display);
+  font-size: 20px; font-weight: 700;
+  color: var(--c-text); margin-bottom: 4px;
+}
+.paket-dur { font-size: 12px; color: var(--c-text-2); margin-bottom: 14px; }
+.paket-hotel { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--c-text-2); margin-bottom: 12px; }
+.paket-hotel strong { color: var(--c-text); }
+.paket-hotel i { color: var(--c-primary); margin-right: 2px; }
+.paket-free { font-size: 12px; color: var(--c-accent); background: var(--c-accent-lt); border: 1px solid rgba(201,168,76,0.25); border-radius: 8px; padding: 6px 10px; margin-bottom: 14px; display: inline-flex; align-items: center; gap: 6px; }
+
+/* countdown */
+.countdown {
+  background: var(--c-bg-alt);
+  border-radius: var(--r-sm);
+  padding: 10px 14px;
+  display: flex; align-items: center; gap: 10px;
+  flex-wrap: wrap; margin-bottom: 14px;
+}
+.cd-label { font-size: 11px; color: var(--c-text-2); display: flex; align-items: center; gap: 5px; flex-shrink: 0; }
+.cd-timer { display: flex; gap: 5px; align-items: center; }
+.cd-unit { text-align: center; background: #fff; border: 1px solid var(--c-border); border-radius: 6px; padding: 4px 8px; min-width: 38px; }
+.cd-num { font-family: var(--f-display); font-size: 17px; font-weight: 700; color: var(--c-primary); line-height: 1; }
+.cd-lbl { font-size: 8px; color: var(--c-text-3); text-transform: uppercase; letter-spacing: 0.05em; }
+.cd-sep { color: var(--c-text-3); font-size: 14px; }
+
+/* slot bar */
+.slot-wrap { margin-bottom: 14px; }
+.slot-label { display: flex; justify-content: space-between; font-size: 11px; color: var(--c-text-2); margin-bottom: 5px; }
+.slot-label span:last-child { color: var(--c-primary); font-weight: 600; }
+.slot-bar { height: 4px; background: var(--c-border); border-radius: 4px; overflow: hidden; }
+.slot-fill { height: 100%; background: linear-gradient(90deg, var(--c-primary), #34a85a); border-radius: 4px; }
+
+.paket-price-row { display: flex; align-items: flex-end; gap: 14px; margin-bottom: 14px; flex-wrap: wrap; }
+.paket-price { font-family: var(--f-display); font-size: 26px; font-weight: 700; color: var(--c-primary); line-height: 1; }
+.paket-cicil { font-size: 12px; color: var(--c-text-2); line-height: 1.4; }
+.paket-cicil strong { color: var(--c-text); }
+.paket-feats { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+.feat {
+  font-size: 11.5px; padding: 4px 10px;
+  border-radius: 6px;
+  background: var(--c-bg-alt);
+  color: var(--c-text-2);
+  display: inline-flex; align-items: center; gap: 4px;
+  border: 1px solid var(--c-border);
+}
+.paket-actions { display: flex; gap: 8px; }
+.paket-actions .btn { flex: 1; padding: 11px 14px; font-size: 13px; }
+.paket-actions .btn-outline { flex: 0 0 auto; }
+
+/* ============================================================
+   SECTION: GALERI JAMAAH
+   ============================================================ */
+.galeri { padding: 64px 0; background: var(--c-bg-alt); }
+.album-tabs {
+  display: flex; gap: 8px; flex-wrap: wrap;
+  margin: 20px 0 20px; overflow-x: auto; padding-bottom: 4px;
+}
+.album-tab {
+  padding: 6px 16px;
+  border-radius: 100px;
+  font-size: 12.5px; font-weight: 600;
+  border: 1.5px solid var(--c-border-2);
+  color: var(--c-text-2);
+  white-space: nowrap;
+  transition: all var(--trans);
+  flex-shrink: 0;
+}
+.album-tab.active {
+  background: var(--c-primary);
+  border-color: var(--c-primary);
+  color: #fff;
+}
+.album-tab:not(.active):hover {
+  border-color: var(--c-primary);
+  color: var(--c-primary);
+}
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+@media (min-width: 400px) {
+  .album-grid { grid-template-columns: repeat(3, 1fr); }
+}
+.album-photo {
+  aspect-ratio: 1;
+  border-radius: var(--r-sm);
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+.album-photo img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.album-photo:hover img { transform: scale(1.06); }
+.album-photo-overlay {
+  position: absolute; inset: 0;
+  background: rgba(27,107,58,0);
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.3s;
+}
+.album-photo:hover .album-photo-overlay {
+  background: rgba(27,107,58,0.35);
+}
+.album-photo-overlay i {
+  font-size: 22px; color: #fff;
+  opacity: 0; transition: opacity 0.3s;
+}
+.album-photo:hover .album-photo-overlay i { opacity: 1; }
+.album-caption {
+  margin-top: 14px;
+  font-size: 12.5px; color: var(--c-text-2); text-align: center;
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+}
+
+/* Lightbox */
+.lightbox {
+  position: fixed; inset: 0; z-index: 1000;
+  background: rgba(0,0,0,0.92);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.3s;
+}
+.lightbox.open { opacity: 1; pointer-events: all; }
+.lightbox img { max-width: 100%; max-height: 85vh; border-radius: var(--r-md); object-fit: contain; }
+.lightbox-close {
+  position: absolute; top: 16px; right: 16px;
+  width: 38px; height: 38px; border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; color: #fff; cursor: pointer;
+  transition: background var(--trans);
+}
+.lightbox-close:hover { background: rgba(255,255,255,0.25); }
+
+/* ============================================================
+   SECTION: TIMELINE PERJALANAN
+   ============================================================ */
+.timeline { padding: 64px 0; background: var(--c-bg); }
+.tl-list { margin-top: 28px; position: relative; }
+.tl-item {
+  display: flex; gap: 16px; align-items: flex-start;
+  padding-bottom: 26px;
+  opacity: 0; transform: translateX(-14px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+.tl-item.visible { opacity: 1; transform: none; }
+.tl-item:last-child { padding-bottom: 0; }
+.tl-left { display: flex; flex-direction: column; align-items: center; flex-shrink: 0; }
+.tl-dot {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--c-primary);
+  background: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; color: var(--c-primary);
+  position: relative; z-index: 1;
+}
+.tl-dot.done { background: var(--c-primary); color: #fff; }
+.tl-connector {
+  width: 2px; flex: 1; min-height: 24px;
+  background: linear-gradient(to bottom, var(--c-primary), var(--c-border));
+  margin-top: 4px;
+}
+.tl-item:last-child .tl-connector { display: none; }
+.tl-body { padding-top: 4px; }
+.tl-step { font-size: 10px; color: var(--c-accent); font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 2px; }
+.tl-title { font-family: var(--f-display); font-size: 16px; font-weight: 600; color: var(--c-text); margin-bottom: 3px; }
+.tl-desc { font-size: 12.5px; color: var(--c-text-2); line-height: 1.6; }
+
+/* ============================================================
+   SECTION: TESTIMONI
+   ============================================================ */
+.testi { 
+  padding: 64px 0; 
+  background: var(--c-bg-alt); 
+  overflow: hidden; 
+}
+
+.testi-scroll {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 8px 18px 16px 18px;
+  scrollbar-width: none;
+  margin-top: 24px;
+}
+.testi-scroll::-webkit-scrollbar { display: none; }
+
+.testi-card {
+  flex: 0 0 220px;
+  scroll-snap-align: start;
+  background: var(--c-bg-card);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  border: 1.5px solid var(--c-border);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--trans);
+}
+.testi-card:hover { box-shadow: var(--shadow-md); }
+
+@media (min-width: 480px) {
+  .testi-card { flex: 0 0 280px; }
+}
+
+.testi-photo {
+  width: 100%;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  background: var(--c-primary-lt);
+  display: flex; align-items: center; justify-content: center;
+}
+.testi-photo img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.testi-photo-init {
+  font-family: var(--f-display);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--c-primary);
+}
+.testi-body {
+  padding: 16px;
+}
+.testi-stars {
+  color: var(--c-accent);
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.testi-quote {
+  font-size: 13px;
+  color: var(--c-text-2);
+  line-height: 1.7;
+  margin-bottom: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.testi-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--c-text);
+  margin-bottom: 2px;
+}
+.testi-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--c-text-2);
+}
+.testi-meta i { color: var(--c-primary); font-size: 10px; }
+.testi-meta .testi-divider {
+  width: 3px; height: 3px;
+  border-radius: 50%;
+  background: var(--c-border-2);
+}
+.testi-dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 16px;
+}
+.testi-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--c-border-2);
+  transition: all var(--trans);
+  cursor: pointer;
+}
+.testi-dot.active {
+  background: var(--c-primary);
+  transform: scale(1.3);
+}
+
+/* ============================================================
+   SECTION: KEUNGGULAN
+   ============================================================ */
+.unggulan { padding: 64px 0; background: var(--c-bg); }
+.unggulan-list { margin-top: 28px; }
+.unggulan-item { border-bottom: 1px solid var(--c-border); overflow: hidden; }
+.unggulan-hd {
+  display: flex; align-items: center; gap: 14px;
+  padding: 16px 0; cursor: pointer; user-select: none;
+}
+.unggulan-num {
+  font-family: var(--f-display); font-size: 11px; font-weight: 600;
+  color: var(--c-accent); width: 22px; flex-shrink: 0;
+}
+.unggulan-icon-wrap {
+  width: 36px; height: 36px;
+  background: var(--c-primary-lt);
+  border-radius: var(--r-sm);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; color: var(--c-primary);
+  flex-shrink: 0;
+  transition: background var(--trans);
+}
+.unggulan-item.open .unggulan-icon-wrap {
+  background: var(--c-primary);
+  color: #fff;
+}
+.unggulan-tw { flex: 1; }
+.unggulan-title { font-family: var(--f-display); font-size: 17px; font-weight: 600; color: var(--c-text); line-height: 1.2; }
+.unggulan-sub { font-size: 11px; color: var(--c-text-2); margin-top: 1px; }
+.unggulan-toggle { font-size: 16px; color: var(--c-text-2); transition: transform 0.3s; flex-shrink: 0; }
+.unggulan-item.open .unggulan-toggle { transform: rotate(45deg); color: var(--c-primary); }
+.unggulan-body { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+.unggulan-body-inner { padding: 0 0 16px 72px; font-size: 13px; color: var(--c-text-2); line-height: 1.75; }
+
+/* ============================================================
+   SECTION: LOKASI & KANTOR
+   ============================================================ */
+.lokasi { padding: 64px 0; background: var(--c-bg-alt); }
+.lokasi-grid {
+  margin-top: 28px;
+  display: flex; flex-direction: column; gap: 14px;
+}
+.lokasi-card {
+  background: var(--c-bg-card);
+  border: 1.5px solid var(--c-border);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+.lokasi-photo {
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  background: var(--c-bg-alt);
+  display: flex; align-items: center; justify-content: center;
+}
+.lokasi-photo img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.lokasi-photo:hover img { transform: scale(1.04); }
+.lokasi-photo-placeholder {
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 8px; width: 100%; height: 100%;
+  color: var(--c-text-3);
+}
+.lokasi-photo-placeholder i { font-size: 32px; }
+.lokasi-photo-placeholder span { font-size: 12px; }
+.lokasi-actions {
+  display: flex; gap: 8px;
+  margin-top: 14px;
+}
+.lokasi-actions .btn { flex: 1; font-size: 12px; padding: 9px 12px; }
+.lokasi-info { padding: 16px; }
+.lokasi-label {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--c-primary);
+  margin-bottom: 5px;
+}
+.lokasi-name { font-family: var(--f-display); font-size: 17px; font-weight: 700; color: var(--c-text); margin-bottom: 6px; }
+.lokasi-addr { font-size: 12.5px; color: var(--c-text-2); line-height: 1.6; margin-bottom: 12px; }
+.lokasi-hours { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--c-text-2); }
+
+/* ============================================================
+   SECTION: LEGALITAS
+   ============================================================ */
+.legal { padding: 64px 0; background: var(--c-bg); }
+.legal-grid {
+  margin-top: 28px;
+  display: flex; flex-direction: column; gap: 0;
+  border: 1.5px solid var(--c-border);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+.legal-item {
+  display: flex; align-items: center; gap: 14px;
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--c-border);
+  background: var(--c-bg-card);
+  transition: background var(--trans);
+}
+.legal-item:last-child { border-bottom: none; }
+.legal-item:hover { background: var(--c-bg-alt); }
+.legal-icon {
+  width: 40px; height: 40px;
+  background: var(--c-primary-lt);
+  border-radius: var(--r-sm);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; color: var(--c-primary);
+  flex-shrink: 0;
+}
+.legal-text { flex: 1; }
+.legal-text strong { display: block; font-size: 13px; font-weight: 700; color: var(--c-text); margin-bottom: 2px; }
+.legal-text span { font-size: 11.5px; color: var(--c-text-2); }
+.legal-verify {
+  font-size: 10px; font-weight: 700;
+  padding: 4px 10px; border-radius: 100px;
+  border: 1.5px solid;
+  display: inline-flex; align-items: center; gap: 4px;
+  flex-shrink: 0; white-space: nowrap;
+  transition: all var(--trans);
+}
+.legal-verify.verified { color: #16a34a; border-color: #16a34a; background: #f0fdf4; }
+.legal-verify.check { color: var(--c-primary); border-color: var(--c-primary); }
+.legal-verify.check:hover { background: var(--c-primary-lt); }
+
+/* ============================================================
+   SECTION: FAQ
+   ============================================================ */
+.faq { padding: 64px 0; background: var(--c-bg-alt); }
+.faq-list { margin-top: 28px; border: 1.5px solid var(--c-border); border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--shadow-sm); }
+.faq-item { border-bottom: 1px solid var(--c-border); background: var(--c-bg-card); overflow: hidden; }
+.faq-item:last-child { border-bottom: none; }
+.faq-q {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 14px; padding: 16px 18px;
+  cursor: pointer; font-size: 14px; font-weight: 600;
+  color: var(--c-text); user-select: none;
+  transition: background var(--trans);
+}
+.faq-q:hover { background: var(--c-bg-alt); }
+.faq-toggle {
+  width: 24px; height: 24px; border-radius: 50%;
+  border: 1.5px solid var(--c-border-2);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; color: var(--c-text-2); flex-shrink: 0;
+  transition: all 0.3s;
+}
+.faq-item.open .faq-toggle {
+  background: var(--c-primary); border-color: var(--c-primary);
+  color: #fff; transform: rotate(135deg);
+}
+.faq-a { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+.faq-a-inner { padding: 0 18px 16px; font-size: 13px; color: var(--c-text-2); line-height: 1.75; }
+
+/* ============================================================
+   SECTION: CLOSING CTA
+   ============================================================ */
+.cta-close {
+  padding: 64px 0;
+  background: var(--c-primary);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.cta-close::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  opacity: 1;
+}
+.cta-close-inner { position: relative; z-index: 1; }
+.cta-title {
+  font-family: var(--f-display);
+  font-size: clamp(28px, 7vw, 42px);
+  font-weight: 700; color: #fff;
+  line-height: 1.15; margin-bottom: 12px;
+}
+.cta-title em { color: var(--c-accent); font-style: italic; }
+.cta-sub { font-size: 14px; color: rgba(255,255,255,0.75); margin-bottom: 28px; line-height: 1.65; }
+.cta-actions { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.cta-actions .btn { max-width: 300px; width: 100%; padding: 15px 22px; font-size: 14px; }
+.cta-telp { font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 6px; }
+.cta-telp a { color: rgba(255,255,255,0.9); font-weight: 700; }
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+  background: #0f3d22;
+  padding: 36px 0 24px;
+  color: rgba(255,255,255,0.75);
+}
+.footer-brand { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.footer-brand img { height: 28px; filter: brightness(0) invert(1); opacity: 0.9; }
+.footer-pt { font-size: 11.5px; color: rgba(255,255,255,0.5); margin-bottom: 3px; }
+.footer-ppiu { font-size: 10px; color: var(--c-accent); letter-spacing: 0.06em; margin-bottom: 18px; }
+.footer-offices { display: flex; flex-direction: column; gap: 10px; margin-bottom: 22px; }
+.footer-office { font-size: 11.5px; color: rgba(255,255,255,0.55); line-height: 1.55; }
+.footer-office-label { font-size: 10px; font-weight: 700; color: var(--c-accent); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 2px; }
+.footer-social { display: flex; gap: 8px; margin-bottom: 24px; }
+.social-link {
+  width: 34px; height: 34px; border-radius: 8px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; color: rgba(255,255,255,0.6);
+  transition: all var(--trans);
+}
+.social-link:hover { background: var(--c-accent); border-color: var(--c-accent); color: #fff; }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 18px;
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 10px; flex-wrap: wrap;
+}
+.footer-copy { font-size: 11px; color: rgba(255,255,255,0.35); }
+.footer-powered { font-size: 10px; color: rgba(255,255,255,0.35); display: flex; align-items: center; gap: 4px; }
+.footer-powered span { color: var(--c-accent); font-weight: 700; }
+
+/* ============================================================
+   FAB + KIT MODAL
+   ============================================================ */
+.fab {
+  position: fixed;
+  bottom: 22px; right: 18px;
+  z-index: 880;
+}
+@media (min-width: 768px) {
+  .fab { right: calc(50% - 390px + 16px); }
+}
+.fab-btn {
+  width: 52px; height: 52px; border-radius: 50%;
+  background: var(--c-primary);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 21px; color: #fff;
+  box-shadow: 0 4px 20px rgba(27,107,58,0.35), 0 2px 8px rgba(0,0,0,0.15);
+  transition: all 0.3s cubic-bezier(0.25,0.46,0.45,0.94);
+}
+.fab-btn:hover { background: var(--c-primary-dk); transform: scale(1.07); }
+.fab-btn.active { background: #fff; color: var(--c-primary); border: 2px solid var(--c-primary); transform: rotate(135deg); }
+
+.kit-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+  z-index: 885;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.3s;
+}
+.kit-overlay.open { opacity: 1; pointer-events: all; }
+
+.kit-modal {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 886;
+  width: calc(100vw - 36px); max-width: 360px;
+  background: #fff;
+  border: 1.5px solid var(--c-border);
+  border-radius: var(--r-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  opacity: 0; pointer-events: none;
+  transform: translate(-50%, -48%) scale(0.96);
+  transition: opacity 0.3s, transform 0.3s;
+}
+.kit-modal.open { 
+  opacity: 1; 
+  pointer-events: all; 
+  transform: translate(-50%, -50%) scale(1);
+}
+.kit-header {
+  padding: 16px 18px 12px;
+  border-bottom: 1px solid var(--c-border);
+  background: var(--c-bg-alt);
+}
+.kit-title { font-family: var(--f-display); font-size: 17px; font-weight: 700; color: var(--c-text); display: flex; align-items: center; gap: 7px; }
+.kit-subtitle { font-size: 11px; color: var(--c-text-2); margin-top: 2px; }
+.kit-items { padding: 6px 0; }
+.kit-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 18px; width: 100%; text-align: left;
+  transition: background var(--trans);
+  opacity: 0; transform: translateX(12px);
+  transition: background var(--trans), opacity 0.35s ease, transform 0.35s ease;
+}
+.kit-modal.open .kit-item { opacity: 1; transform: none; }
+.kit-item:hover { background: var(--c-bg-alt); }
+.kit-icon {
+  width: 34px; height: 34px; border-radius: 8px;
+  background: var(--c-primary-lt);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 15px; color: var(--c-primary);
+  flex-shrink: 0;
+}
+.kit-item-label { font-size: 13px; font-weight: 600; color: var(--c-text); }
+.kit-item-desc { font-size: 11px; color: var(--c-text-2); margin-top: 1px; }
+.kit-arrow { color: var(--c-text-3); font-size: 12px; flex-shrink: 0; margin-left: auto; }
+.kit-divider { height: 1px; background: var(--c-border); margin: 4px 0; }
+.kit-wa { margin: 8px 18px 14px; width: calc(100% - 36px); }
+
+/* ============================================================
+   SUB-MODAL (sheet)
+   ============================================================ */
+.sub-overlay {
+  position: fixed; inset: 0; z-index: 890;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(6px);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  opacity: 0; pointer-events: none; transition: opacity 0.3s;
+}
+.sub-overlay.open { opacity: 1; pointer-events: all; }
+.sub-modal {
+  background: #fff;
+  border-radius: var(--r-xl);
+  padding: 24px 20px 28px;
+  width: 100%; max-width: 400px;
+  max-height: 85vh; overflow-y: auto;
+  transform: scale(0.96) translateY(12px);
+  transition: transform 0.3s;
+  box-shadow: var(--shadow-lg);
+}
+.sub-overlay.open .sub-modal { transform: scale(1) translateY(0); }
+.sub-close {
+  float: right; color: var(--c-text-2); font-size: 20px;
+  transition: color var(--trans); margin-top: -4px;
+}
+.sub-close:hover { color: var(--c-primary); }
+.sub-title { font-family: var(--f-display); font-size: 20px; font-weight: 700; color: var(--c-text); margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+
+/* sub-modal: kalkulator */
+.kalc-label { font-size: 12px; color: var(--c-text-2); font-weight: 500; margin-bottom: 5px; display: block; }
+.kalc-select {
+  width: 100%; height: 44px;
+  background: #fff;
+  border: 1.5px solid var(--c-border-2);
+  border-radius: var(--r-sm);
+  color: var(--c-text);
+  font-family: var(--f-body); font-size: 14px;
+  padding: 0 36px 0 12px;
+  outline: none; margin-bottom: 14px;
+  cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%236B7280' stroke-width='1.5'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 10px center; background-size: 14px;
+  transition: border-color var(--trans);
+}
+.kalc-select:focus { border-color: var(--c-primary); }
+.kalc-result {
+  background: var(--c-primary-lt);
+  border: 1.5px solid rgba(27,107,58,0.2);
+  border-radius: var(--r-md);
+  padding: 16px; margin-top: 4px;
+  display: none;
+}
+.kalc-result.show { display: block; }
+.kalc-result-title { font-family: var(--f-display); font-size: 15px; font-weight: 700; color: var(--c-text); margin-bottom: 10px; }
+.kalc-row { display: flex; justify-content: space-between; font-size: 13px; color: var(--c-text-2); padding: 5px 0; border-bottom: 1px solid rgba(27,107,58,0.1); }
+.kalc-row:last-of-type { border-bottom: none; }
+.kalc-row span:last-child { color: var(--c-primary); font-weight: 700; }
+
+/* sub-modal: perbandingan */
+.compare-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.compare-table th { text-align: left; padding: 8px 10px; color: var(--c-primary); font-weight: 700; font-size: 11px; border-bottom: 2px solid var(--c-primary-lt); }
+.compare-table td { padding: 9px 10px; color: var(--c-text-2); border-bottom: 1px solid var(--c-border); vertical-align: top; line-height: 1.4; }
+.compare-table td:first-child { color: var(--c-text); font-weight: 600; }
+.compare-table tr:last-child td { border-bottom: none; }
+.compare-table .price-cell { color: var(--c-primary); font-weight: 700; }
+
+/* QR */
+.qr-wrap { text-align: center; padding: 8px 0; }
+.qr-box { display: inline-block; background: #fff; border: 1.5px solid var(--c-border); border-radius: var(--r-md); padding: 14px; margin-bottom: 14px; }
+.qr-box img { width: 150px; height: 150px; }
+.qr-url { font-size: 12px; color: var(--c-text-2); margin-bottom: 14px; }
+.qr-url strong { color: var(--c-primary); }
+
+/* ============================================================
+   SECTION: TENTANG AGENT
+   ============================================================ */
+.tentang { padding: 64px 0; background: var(--c-bg); }
+.tentang-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 28px;
+}
+.tentang-photo {
+  width: 100%;
+  aspect-ratio: 4/3;
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+.tentang-photo img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.tentang-photo-placeholder {
+  width: 100%; height: 100%;
+  background: var(--c-primary-lt);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 64px; color: var(--c-primary);
+}
+.tentang-body p {
+  font-size: 14px;
+  color: var(--c-text-2);
+  line-height: 1.85;
+  margin-bottom: 14px;
+}
+.tentang-body p:last-child { margin-bottom: 0; }
+.tentang-body strong { color: var(--c-text); }
+.tentang-quote {
+  border-left: 3px solid var(--c-accent);
+  padding: 12px 16px;
+  margin: 18px 0;
+  background: var(--c-accent-lt);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+}
+.tentang-quote p {
+  font-family: var(--f-display);
+  font-size: 15px !important;
+  font-style: italic;
+  color: var(--c-text) !important;
+  margin-bottom: 0 !important;
+}
+
+/* ============================================================
+   SECTION: WILAYAH LAYANAN
+   ============================================================ */
+.wilayah { padding: 64px 0; background: var(--c-bg-alt); }
+.wilayah-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 28px;
+}
+.wilayah-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: var(--c-bg-card);
+  border: 1.5px solid var(--c-border);
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--c-text);
+  transition: all var(--trans);
+}
+.wilayah-chip:hover {
+  border-color: var(--c-primary);
+  color: var(--c-primary);
+  background: var(--c-primary-lt);
+}
+.wilayah-chip i { color: var(--c-primary); font-size: 12px; }
+.wilayah-note {
+  margin-top: 20px;
+  font-size: 13px;
+  color: var(--c-text-2);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.wilayah-note i { color: var(--c-accent); }
+
+/* ============================================================
+   SECTION: TOKOH ULAMA
+   ============================================================ */
+.tokoh { padding: 64px 0; background: var(--c-bg); }
+.tokoh-scroll {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 10px 20px 18px 28px;
+  scrollbar-width: none;
+  margin-top: 24px;
+}
+.tokoh-scroll::-webkit-scrollbar { display: none; }
+.tokoh-card {
+  flex: 0 0 260px;
+  scroll-snap-align: start;
+  background: var(--c-bg-card);
+  border: 1.5px solid var(--c-border);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--trans);
+  text-align: center;
+}
+.tokoh-card:hover {
+  border-color: var(--c-primary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+.tokoh-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--c-primary-lt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.tokoh-photo img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.tokoh-photo-init {
+  font-family: var(--f-display);
+  font-size: 52px;
+  font-weight: 700;
+  color: var(--c-primary);
+}
+.tokoh-body { padding: 15px 13px 18px; }
+.tokoh-peran {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+  background: var(--c-accent-lt);
+  border: 1px solid rgba(201,168,76,0.25);
+  border-radius: 100px;
+  padding: 4px 12px;
+  margin-bottom: 10px;
+}
+.tokoh-nama {
+  font-family: var(--f-display);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--c-text);
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+.tokoh-jabatan {
+  font-size: 14px;
+  color: var(--c-text-2);
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+.tokoh-kec {
+  font-size: 13px;
+  color: var(--c-primary);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+/* ============================================================
+   SECTION: MITRA AGENT
+   ============================================================ */
+.mitra { padding: 64px 0; background: var(--c-primary-dk); position: relative; overflow: hidden; }
+.mitra::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.mitra-inner { position: relative; z-index: 1; }
+.mitra .sec-eyebrow { color: var(--c-accent); }
+.mitra .sec-eyebrow::before { background: var(--c-accent); }
+.mitra .sec-title { color: #fff; }
+.mitra .sec-title em { color: var(--c-accent); }
+.mitra .sec-desc { color: rgba(255,255,255,0.75); max-width: 480px; }
+
+.mitra-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 100px;
+  padding: 8px 18px;
+  margin-bottom: 28px;
+}
+.mitra-counter-num {
+  font-family: var(--f-display);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--c-accent);
+}
+.mitra-counter-txt {
+  font-size: 12px;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.3;
+}
+
+.mitra-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+.mitra-benefit {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: var(--r-md);
+  padding: 14px;
+  transition: background var(--trans);
+}
+.mitra-benefit:hover { background: rgba(255,255,255,0.13); }
+.mitra-benefit-icon {
+  width: 36px; height: 36px;
+  background: var(--c-accent);
+  border-radius: var(--r-sm);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; color: #fff;
+  flex-shrink: 0;
+}
+.mitra-benefit-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 2px;
+}
+.mitra-benefit-desc {
+  font-size: 11.5px;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.5;
+}
+.mitra-scarcity {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 20px;
+}
+.mitra-scarcity i { color: var(--c-accent); }
+.mitra-cta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Modal Mitra */
+.mitra-overlay {
+  position: fixed; inset: 0; z-index: 950;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(6px);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.3s;
+}
+.mitra-overlay.open { opacity: 1; pointer-events: all; }
+.mitra-modal {
+  background: #fff;
+  border-radius: var(--r-xl);
+  width: 100%; max-width: 420px;
+  max-height: 90vh;
+  overflow-y: auto;
+  transform: scale(0.96) translateY(16px);
+  transition: transform 0.3s;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.2);
+}
+.mitra-overlay.open .mitra-modal { transform: scale(1) translateY(0); }
+
+.mitra-modal-head {
+  background: var(--c-primary);
+  padding: 24px 20px 20px;
+  position: relative;
+  text-align: center;
+}
+.mitra-modal-head img {
+  height: 32px; width: auto;
+  filter: brightness(0) invert(1);
+  margin: 0 auto 14px;
+  display: block;
+}
+.mitra-modal-close {
+  position: absolute; top: 14px; right: 14px;
+  width: 30px; height: 30px; border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; color: #fff; cursor: pointer;
+  transition: background var(--trans);
+}
+.mitra-modal-close:hover { background: rgba(255,255,255,0.25); }
+.mitra-modal-headline {
+  font-family: var(--f-display);
+  font-size: 20px; font-weight: 700;
+  color: #fff; line-height: 1.25;
+  margin-bottom: 6px;
+}
+.mitra-modal-sub {
+  font-size: 12px;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.6;
+}
+.mitra-modal-body { padding: 20px; }
+
+.mitra-modal-benefits {
+  display: flex; flex-direction: column; gap: 8px;
+  margin-bottom: 16px;
+}
+.mitra-modal-benefit {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 13px; color: var(--c-text);
+}
+.mitra-modal-benefit i {
+  color: var(--c-primary);
+  font-size: 15px; flex-shrink: 0;
+}
+.mitra-modal-scarcity {
+  background: #fff8e6;
+  border: 1px solid rgba(201,168,76,0.3);
+  border-radius: var(--r-sm);
+  padding: 10px 14px;
+  font-size: 12px;
+  color: #92611a;
+  display: flex; align-items: center; gap: 8px;
+  margin-bottom: 20px;
+}
+.mitra-divider {
+  height: 1px;
+  background: var(--c-border);
+  margin: 20px 0;
+}
+.mitra-form-label {
+  font-size: 12px; font-weight: 600;
+  color: var(--c-text-2);
+  margin-bottom: 5px; display: block;
+}
+.mitra-form-input {
+  width: 100%; height: 44px;
+  border: 1.5px solid var(--c-border-2);
+  border-radius: var(--r-sm);
+  padding: 0 12px;
+  font-family: var(--f-body);
+  font-size: 14px; color: var(--c-text);
+  outline: none; margin-bottom: 12px;
+  transition: border-color var(--trans);
+  background: #fff;
+}
+.mitra-form-input:focus { border-color: var(--c-primary); }
+.mitra-form-select {
+  width: 100%; height: 44px;
+  border: 1.5px solid var(--c-border-2);
+  border-radius: var(--r-sm);
+  padding: 0 36px 0 12px;
+  font-family: var(--f-body);
+  font-size: 14px; color: var(--c-text-2);
+  background: #fff;
+  outline: none; margin-bottom: 12px;
+  cursor: pointer;
+  opacity: 1;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%236B7280' stroke-width='1.5'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 14px;
+  pointer-events: none;
+}
+.mitra-form-note {
+  font-size: 11px; color: var(--c-text-3);
+  text-align: center; margin-bottom: 16px;
+  display: flex; align-items: center; justify-content: center; gap: 5px;
+}
+.mitra-form-actions {
+  display: flex; gap: 8px;
+}
+.mitra-form-actions .btn { flex: 1; }
+
+/* tooltip sukses */
+.mitra-success {
+  background: var(--c-primary);
+  color: #fff;
+  border-radius: var(--r-md);
+  padding: 16px;
+  text-align: center;
+  display: none;
+  margin-top: 16px;
+}
+.mitra-success.show { display: block; }
+.mitra-success i { font-size: 28px; color: var(--c-accent); margin-bottom: 8px; display: block; }
+.mitra-success p { font-size: 13px; line-height: 1.6; color: rgba(255,255,255,0.9); }
+
+/* ============================================================
+   SCROLL REVEAL
+   ============================================================ */
+.reveal {
+  opacity: 0; transform: translateY(20px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+.reveal.visible { opacity: 1; transform: none; }
+
+/* ============================================================
+   TOAST
+   ============================================================ */
+.toast {
+  position: fixed; bottom: 90px; left: 50%;
+  transform: translateX(-50%) translateY(12px);
+  background: var(--c-primary); color: #fff;
+  font-size: 13px; font-weight: 600;
+  padding: 10px 20px; border-radius: 100px;
+  z-index: 999; opacity: 0; transition: all 0.3s;
+  white-space: nowrap; pointer-events: none;
+  display: flex; align-items: center; gap: 6px;
+  box-shadow: var(--shadow-md);
+}
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+</style>
+</head>
+<body>
+
+<!-- TOAST -->
+<div class="toast" id="toast"><i class="bi bi-check-circle-fill"></i> <span id="toastText">Link tersalin!</span></div>
+
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<nav class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <div class="nav-agent-photo">
+      <div class="nav-avatar" id="navAvatar">Y</div>
+      <div class="nav-online"></div>
+    </div>
+    <div class="nav-info">
+      <div class="nav-name" id="navName">H. Yusuf Ismail</div>
+      <div class="nav-badge" id="navBadge"><i class="bi bi-patch-check-fill"></i> Agent Resmi · Sumenep</div>
+    </div>
+    <a href="#" class="btn btn-nav-wa btn-sm" id="navWaBtn" target="_blank">
+      <i class="bi bi-whatsapp"></i> WA
+    </a>
+  </div>
+</nav>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="wrap">
+    <div class="hero-content">
+      <div class="hero-badge-row" id="heroBadges" style="display:none"></div>
+      <h1 class="hero-title" id="heroTitle"></h1>
+      <div class="hero-sub" id="heroSub"></div>
+      <p class="hero-desc" id="heroDesc"></p>
+      <div class="hero-cta">
+        <a href="#" class="btn btn-wa btn-lg" id="heroWaBtn" target="_blank">
+          <i class="bi bi-whatsapp"></i> Konsultasi
+        </a>
+        <a href="#paket" class="btn btn-outline" style="background:rgba(255,255,255,0.12);border-color:rgba(255,255,255,0.5);color:#fff">
+          Lihat Paket <i class="bi bi-arrow-down"></i>
+        </a>
+      </div>
+      <div class="hero-trust" id="heroTrust"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TENTANG PAK YUSUF
+     ============================================================ -->
+<section class="tentang" id="tentang">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">Tentang Pak Yusuf</div>
+      <h2 class="sec-title">Mengenal Lebih Dekat<br><em>Pendamping Jamaah Anda</em></h2>
+    </div>
+    <div class="tentang-inner reveal" id="tentangInner"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     LAYANAN AGENT
+     ============================================================ -->
+<section class="layanan" id="layanan">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">Mengapa Jamaah Memilih Pak Yusuf</div>
+      <h2 class="sec-title">Bukan Sekadar Agent —<br><em>Pendamping Jamaah</em></h2>
+      <p class="sec-desc">Mendampingi setiap jamaah dari pendaftaran, manasik, hingga keberangkatan — dengan penuh amanah dan ketulusan.</p>
+    </div>
+    <div class="layanan-grid reveal" id="layananGrid"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TOKOH ULAMA
+     ============================================================ -->
+<section class="tokoh" id="tokoh">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">Didukung Tokoh Ulama</div>
+      <h2 class="sec-title">Dipercaya Para<br><em>Kyai & Ustadz Lokal</em></h2>
+      <p class="sec-desc">Para ulama dan tokoh pesantren Madura yang telah hadir dalam bimbingan manasik bersama jamaah Pak Yusuf.</p>
+    </div>
+  </div>
+  <div class="tokoh-scroll reveal" id="tokohScroll"></div>
+  <div class="wrap">
+    <div class="testi-dots reveal" id="tokohDots"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     GALERI JAMAAH
+     ============================================================ -->
+<section class="galeri" id="galeri">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">Dokumentasi Jamaah</div>
+      <h2 class="sec-title">Mereka Sudah<br><em>Berangkat & Pulang dengan Selamat</em></h2>
+      <p class="sec-desc">Bukan foto stok. Ini jamaah nyata dari Sumenep dan sekitarnya yang telah mendapat pendampingan langsung.</p>
+    </div>
+    <div class="album-tabs reveal" id="albumTabs"></div>
+    <div class="album-grid reveal" id="albumGrid"></div>
+    <div class="album-caption reveal" id="albumCaption"></div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close"><i class="bi bi-x-lg"></i></button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<!-- ============================================================
+     TESTIMONI
+     ============================================================ -->
+<section class="testi" id="testimoni">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">Testimoni Jamaah</div>
+      <h2 class="sec-title">Kata Mereka yang<br><em>Sudah Berangkat</em></h2>
+      <p class="sec-desc">Dari tetangga, kerabat, dan warga Madura yang telah mendapat pendampingan langsung.</p>
+    </div>
+  </div>
+  <div class="testi-scroll reveal" id="testiScroll" style="padding-left: calc((100vw - min(100vw, 520px)) / 2 + 18px)"></div>
+  <div class="wrap">
+    <div class="testi-dots reveal" id="testiDots"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     WILAYAH LAYANAN
+     ============================================================ -->
+<section class="wilayah" id="wilayah">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">Wilayah Layanan</div>
+      <h2 class="sec-title">Melayani Jamaah<br><em>dari Seluruh Madura</em></h2>
+      <p class="sec-desc">Pendampingan tersedia untuk jamaah dari berbagai kecamatan di Sumenep, Pamekasan, Sampang, dan Bangkalan.</p>
+    </div>
+    <div class="wilayah-grid reveal" id="wilayahGrid"></div>
+    <div class="wilayah-note reveal">
+      <i class="bi bi-info-circle"></i>
+      Dari luar wilayah? Konsultasi tetap bisa dilakukan via WhatsApp.
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TIMELINE PERJALANAN
+     ============================================================ -->
+<section class="timeline" id="perjalanan">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">Alur Perjalanan</div>
+      <h2 class="sec-title">Dari Pendaftaran<br><em>Hingga Tiba Kembali di Rumah</em></h2>
+      <p class="sec-desc">Setiap langkah didampingi. Tidak ada yang diurus sendiri.</p>
+    </div>
+    <div class="tl-list reveal" id="tlList"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     KEUNGGULAN
+     ============================================================ -->
+<section class="unggulan" id="keunggulan">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">Keunggulan Layanan</div>
+      <h2 class="sec-title">Mengapa Salam Travel<br><em>Dipercaya Ribuan Jamaah</em></h2>
+    </div>
+    <div class="unggulan-list reveal" id="unggulanList"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PAKET UMROH
+     ============================================================ -->
+<section class="paket" id="paket">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">Pilih Paket</div>
+      <h2 class="sec-title">Paket Umroh<br><em>untuk Semua Kebutuhan</em></h2>
+    </div>
+    <div class="filter-tabs reveal" id="filterTabs"></div>
+    <div class="paket-list" id="paketList"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SISTEM PAS
+     ============================================================ -->
+<section class="pas" id="sistem-pas">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">Sistem PAS</div>
+      <h2 class="sec-title">Kenapa Jamaah Kami<br><em>Tidak Perlu Khawatir?</em></h2>
+      <p class="sec-desc">Untuk pertama kalinya di Indonesia — berangkat umroh tanpa harus mentransfer uang ke rekening travel terlebih dahulu.</p>
+    </div>
+    <div class="pas-steps" id="pasSteps"></div>
+    <div class="pas-bsi reveal" id="pasBsi"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     LOKASI & KANTOR
+     ============================================================ -->
+<section class="lokasi" id="kantor">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">Kantor & Lokasi</div>
+      <h2 class="sec-title">Kantor Resmi.<br><em>Bisa Dikunjungi Langsung.</em></h2>
+    </div>
+    <div class="lokasi-grid reveal" id="lokasiGrid"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     LEGALITAS
+     ============================================================ -->
+<section class="legal" id="legalitas">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">Legalitas & Izin Resmi</div>
+      <h2 class="sec-title">Aman, Resmi,<br><em>Terdaftar Kemenag</em></h2>
+    </div>
+    <div class="legal-grid reveal" id="legalGrid"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="sec-eyebrow">FAQ</div>
+      <h2 class="sec-title">Pertanyaan<br><em>yang Sering Muncul</em></h2>
+    </div>
+    <div class="reveal" id="faqList"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CLOSING CTA
+     ============================================================ -->
+<section class="cta-close" id="kontak">
+  <div class="wrap">
+    <div class="cta-close-inner reveal">
+      <h2 class="cta-title">Siap Menjadi<br><em>Tamu Allah?</em></h2>
+      <p class="cta-sub" id="ctaSub"></p>
+      <div class="cta-actions">
+        <a href="#" class="btn btn-wa btn-lg" id="ctaWaBtn" target="_blank">
+          <i class="bi bi-whatsapp"></i> Chat WhatsApp Sekarang
+        </a>
+        <div class="cta-telp">atau hubungi: <a href="#" id="ctaTelp"></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAB + KIT
+     ============================================================ -->
+<div class="fab">
+  <button class="fab-btn" id="fabBtn" onclick="toggleKit()">
+    <i class="bi bi-compass" id="fabIcon"></i>
+  </button>
+</div>
+<div class="kit-overlay" id="kitOverlay" onclick="closeKit()"></div>
+<div class="kit-modal" id="kitModal">
+  <div class="kit-header" style="position:relative">
+  <div class="kit-title"><i class="bi bi-stars"></i> Salam Kit</div>
+  <div class="kit-subtitle">Semua yang Anda butuhkan dalam satu tempat</div>
+  <button onclick="closeKit()" style="position:absolute;top:0;right:0;width:28px;height:28px;border-radius:50%;background:var(--c-border);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:13px;color:var(--c-text-2)"><i class="bi bi-x-lg"></i></button>
+</div>
+  <div class="kit-items" id="kitItems"></div>
+  <a href="#" class="btn btn-wa btn-block kit-wa" id="kitWaBtn" target="_blank">
+    <i class="bi bi-whatsapp"></i> Chat WhatsApp
+  </a>
+</div>
+
+<!-- SUB-MODAL -->
+<div class="sub-overlay" id="subOverlay" onclick="closeSub(event)">
+  <div class="sub-modal">
+    <button class="sub-close" onclick="closeSub()"><i class="bi bi-x-lg"></i></button>
+    <div id="subContent"></div>
+  </div>
+</div>
+
+
+<!-- ============================================================
+     SITE CONFIG — edit bagian ini untuk tiap agent
+     ============================================================ -->
+<script>
+const siteConfig = {
+
+  brand: {
+    name:      "Salam Travel",
+    legalName: "PT. Shahibuna Sabila Salam",
+    ppiu:      "PPIU 2010.22.00117.44.0002",
+    logoUrl:   "https://salamku.pro/wp-content/uploads/2026/06/Logo-Salam-Travel.png",
+    offices: [
+      {
+        label:   "Kantor Cabang Sumenep",
+        name:    "Salam Travel Sumenep",
+        addr:    "Jl. KH Mansyur 31 (LaGalleria Hotel), Sumenep, Madura",
+        hours:   "Senin–Sabtu: 08.00–17.00 WIB",
+        photo: "https://salamku.pro/wp-content/uploads/2026/06/Kantor-Umroh-1.jpg",
+        mapsUrl: "https://maps.google.com/?q=Jl.+KH+Mansyur+31+Sumenep+Madura",
+        wa:      "6285292300300"
+      },
+      {
+        label:   "Kantor Pusat Bandung",
+        name:    "Salam Travel Bandung",
+        addr:    "Salam Travel Blok E, Campaka, Andir, Bandung 40175",
+        hours:   "Senin–Sabtu: 08.00–17.00 WIB",
+        photo: "https://salamku.pro/wp-content/uploads/2026/06/Kantor-Umroh-2.jpg",
+        mapsUrl: "https://maps.google.com/?q=Salam+Travel+Campaka+Bandung",
+        wa:      "6281234567890"
+      }
+    ],
+    social: {
+      web: "#",
+      fb:  "#",
+      ig:  "#",
+      tt:  "#",
+      yt:  "#"
+    }
+  },
+
+  agent: {
+    name:    "H. Yusuf Ismail",
+    title:   "Pembimbing & Agent Resmi Salam Travel",
+    city:    "Sumenep, Jawa Timur",
+    wa:      "6285292300300",
+    slug:    "haji-ucup",
+    initial: "Y",
+    photo: "https://salamku.pro/wp-content/uploads/2026/06/Pak-Ucup-Icon.jpg",
+    heroImage: "https://salamku.pro/wp-content/uploads/2026/06/Pak-Ucup-Umroh-2.jpg",
+    badges: [
+      { icon: "bi-patch-check-fill", text: "Agent Resmi", style: "accent" },
+      { icon: "bi-geo-alt-fill",     text: "Sumenep, Madura", style: "white" },
+      { icon: "bi-shield-check",     text: "PPIU Kemenag",    style: "white" }
+    ],
+    stats: [
+  { value: 120, label: "Jamaah\nDiberangkatkan" },
+  { value: 10,  label: "Tahun\nBerpengalaman" },
+  { value: "👍", label: "Jamaah\nPuas", isText: true }
+],
+    services: [
+  { icon: "bi-person-check",      title: "Bisa Ditemui Langsung",  desc: "Konsultasi tatap muka langsung di kantor Sumenep — tidak hanya via telepon" },
+  { icon: "bi-file-earmark-text", title: "Pengurusan Dokumen",     desc: "Paspor, visa, hingga kelengkapan manasik — semua didampingi hingga tuntas" },
+  { icon: "bi-people",            title: "Grup Bimbingan Jamaah",  desc: "Informasi perjalanan tersedia real-time sebelum dan selama di Tanah Suci" },
+  { icon: "bi-airplane-engines",  title: "Pendampingan Keberangkatan", desc: "Mendampingi jamaah dari persiapan hingga pelepasan di bandara" },
+  { icon: "bi-cash-coin",         title: "Konsultasi Gratis",      desc: "Tanpa tekanan, tanpa komitmen awal — cukup ngobrol dulu" },
+  { icon: "bi-award",             title: "10 Tahun Melayani",      desc: "Lebih dari 120 jamaah telah diberangkatkan dengan aman dan amanah" }
+],
+    wilayah: ["Sumenep", "Pamekasan", "Sampang", "Bangkalan", "Surabaya", "Sidoarjo"]
+  },
+
+tentang: {
+  photo: "https://salamku.pro/wp-content/uploads/2026/06/Pak-Ucup-Umroh-2.jpg",
+  paragraphs: [
+    "Sejak lebih dari 10 tahun lalu, H. Yusuf Ismail menemani langkah jamaah dari Sumenep dan Madura menuju Tanah Suci — bukan sekadar profesi, melainkan panggilan hati untuk mengantar saudara menjadi tamu Allah.",
+    "Dari konsultasi pertama, pengurusan dokumen, bimbingan manasik, hingga pelepasan di bandara — semua didampingi dengan tulus. Lebih dari 120 jamaah telah berangkat dan pulang dengan selamat, membawa ibadah yang mabrur."
+  ],
+  quote: "Tugas kami bukan sekadar memberangkatkan. Tugas kami adalah memastikan setiap jamaah merasa tenang, terjaga, dan pulang membawa ibadah yang mabrur."
+},
+
+wilayah: [
+  { nama: "Kota Sumenep",  icon: "bi-geo-alt-fill" },
+  { nama: "Pragaan",       icon: "bi-geo-alt" },
+  { nama: "Lenteng",       icon: "bi-geo-alt" },
+  { nama: "Ganding",       icon: "bi-geo-alt" },
+  { nama: "Bluto",         icon: "bi-geo-alt" },
+  { nama: "Kalianget",     icon: "bi-geo-alt" },
+  { nama: "Saronggi",      icon: "bi-geo-alt" },
+  { nama: "Guluk-Guluk",   icon: "bi-geo-alt" },
+  { nama: "Rubaru",        icon: "bi-geo-alt" },
+  { nama: "Ambunten",      icon: "bi-geo-alt" },
+  { nama: "P. Kangean",    icon: "bi-geo-alt" },
+  { nama: "P. Sapeken",    icon: "bi-geo-alt" },
+  { nama: "P. Masalembu",  icon: "bi-geo-alt" },
+  { nama: "P. Sepudi",     icon: "bi-geo-alt" },
+  { nama: "Pamekasan",     icon: "bi-geo-alt" },
+  { nama: "Sampang",       icon: "bi-geo-alt" },
+  { nama: "Bangkalan",     icon: "bi-geo-alt" }
+],
+
+tokoh: [
+  {
+    photo: null,
+    initial: "A",
+    nama: "KH. Ahmad Bashori, M.Si.",
+    jabatan: "Pimpinan Pondok Pesantren Al-Amin",
+    kecamatan: "Lenteng, Sumenep",
+    peran: "Pemateri Manasik 2024"
+  },
+  {
+    photo: null,
+    initial: "M",
+    nama: "Ust. Muhammad Faisol, Lc.",
+    jabatan: "Pengasuh PP. Nurul Huda",
+    kecamatan: "Pragaan, Sumenep",
+    peran: "Pembimbing Doa & Spiritual"
+  },
+  {
+    photo: null,
+    initial: "Z",
+    nama: "KH. Zainullah Rois",
+    jabatan: "Ketua MUI Kec. Guluk-Guluk",
+    kecamatan: "Guluk-Guluk, Sumenep",
+    peran: "Pemateri Manasik 2023"
+  },
+  {
+    photo: null,
+    initial: "I",
+    nama: "Ust. Ihsan Maulana, S.Pd.I.",
+    jabatan: "Guru Senior MA Nurul Islam",
+    kecamatan: "Bluto, Sumenep",
+    peran: "Pemateri Fiqih Umroh"
+  },
+  {
+    photo: null,
+    initial: "R",
+    nama: "KH. Rahmatullah Hasan",
+    jabatan: "Pengasuh PP. Darul Ulum",
+    kecamatan: "Kalianget, Sumenep",
+    peran: "Pembimbing Rombongan 2024"
+  }
+],
+
+  pasSteps: [
+    {
+      title: "Daftar & Siapkan Dana",
+      desc:  "Uang Anda disimpan di <span class=\"pas-hl\">rekening atas nama Anda sendiri</span> di Bank BSI — bukan rekening travel. Tidak bisa dipindahkan tanpa sepengetahuan Anda."
+    },
+    {
+      title: "Berangkat ke Tanah Suci",
+      desc:  "Anda terbang ke Makkah dan melaksanakan umroh. <span class=\"pas-hl\">Uang masih utuh di rekening Anda.</span> Bukan janji — ini sistem yang terbukti dan tervalidasi."
+    },
+    {
+      title: "Selesai Umroh, Baru Bayar",
+      desc:  "Setelah terbukti Anda telah melaksanakan umroh, <span class=\"pas-hl\">Bank BSI memindahkan dana ke rekening Salam Travel</span> — otomatis, transparan, tanpa bisa dimanipulasi."
+    }
+  ],
+
+  packages: [
+    {
+      id: "umroh-10h", category: "10",
+      name: "Umroh Hemat 10 Hari",
+      duration: "Bersama Qatar Airways",
+      hotelMakkah: "Waha Ajyad / setaraf",
+      hotelMadinah: "Golden Medinah / setaraf",
+      poster: "https://salamku.pro/wp-content/uploads/2026/06/Umroh-10-Hari-Salam-Travel.jpg",
+      price: 31000000,
+      features: [
+        { icon: "bi-airplane-engines", text: "Qatar Airways" },
+        { icon: "bi-shield-check",     text: "Paling Aman" },
+        { icon: "bi-journal-check",    text: "Manasik Lengkap" }
+      ]
+    },
+    {
+      id: "umroh-16h", category: "16", featured: true,
+      badge: { icon: "bi-fire", text: "Paling Laris" },
+      name: "Umroh Hemat 16 Hari",
+      duration: "Starting Jakarta / Surabaya",
+      hotelMakkah: "Waha Ajyad / setaraf",
+      hotelMadinah: "Golden Medinah / setaraf",
+      free: ["Thaif", "Jabal Khandamah", "Badar"],
+      poster: "https://salamku.pro/wp-content/uploads/2026/06/Umroh-16-Hari-Salam-Travel.jpg",
+      price: 34500000,
+      features: [
+        { icon: "bi-airplane",     text: "Tiket PP + Handling" },
+        { icon: "bi-egg-fried",    text: "Konsumsi 3×/Hari" },
+        { icon: "bi-arrow-repeat", text: "4× Umroh" },
+        { icon: "bi-droplet",      text: "Air Zamzam 5L" }
+      ]
+    },
+    {
+      id: "umroh-20h", category: "20",
+      badge: { icon: "bi-gem", text: "Best Deal" },
+      name: "Umroh Hemat 20 Hari — Best Deal",
+      duration: "Starting Jakarta / Surabaya",
+      hotelMakkah: "Waha Ajyad / setaraf",
+      hotelMadinah: "Golden Medinah / setaraf",
+      free: ["Thaif", "Jabal Khandamah", "Badar"],
+      poster: "https://salamku.pro/wp-content/uploads/2026/06/Umroh-20-Hari-Salam-Travel.jpg",
+      price: 36500000,
+      features: [
+        { icon: "bi-airplane",     text: "Tiket PP + Handling" },
+        { icon: "bi-egg-fried",    text: "Konsumsi 3×/Hari" },
+        { icon: "bi-arrow-repeat", text: "4× Umroh" },
+        { icon: "bi-droplet",      text: "Air Zamzam 5L" }
+      ]
+    }
+  ],
+
+  galeri: [
+    {
+      id: "manasik", label: "Manasik 2024",
+      caption: "Persiapan manasik jamaah Sumenep, November 2024",
+      photos: [
+        { url: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&q=80", alt: "Jamaah" },
+        { url: "https://images.unsplash.com/photo-1564769662533-4f00a87b4056?w=400&q=80", alt: "Masjid Nabawi" },
+        { url: "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=400&q=80", alt: "Ka'bah" },
+        { url: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=400&q=80", alt: "Tawaf" },
+        { url: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&q=80", alt: "Jamaah umroh" },
+        { url: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&q=80", alt: "Madinah" }
+      ]
+    },
+    {
+      id: "makkah-feb24", label: "Makkah Feb 2024",
+      caption: "Keberangkatan ke Makkah, Februari 2024 — 32 jamaah",
+      photos: [
+        { url: "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=400&q=80", alt: "Ka'bah" },
+        { url: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=400&q=80", alt: "Tawaf" },
+        { url: "https://images.unsplash.com/photo-1564769662533-4f00a87b4056?w=400&q=80", alt: "Ziarah" },
+        { url: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&q=80", alt: "Jamaah" },
+        { url: "https://images.unsplash.com/photo-1609153222369-6b9d5a4dfe6a?w=400&q=80", alt: "Manasik" },
+        { url: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&q=80", alt: "Sai" }
+      ]
+    },
+    {
+      id: "madinah-mar24", label: "Madinah Mar 2024",
+      caption: "Ziarah Madinah, Maret 2024 — 28 jamaah",
+      photos: [
+        { url: "https://images.unsplash.com/photo-1564769662533-4f00a87b4056?w=400&q=80", alt: "Masjid Nabawi" },
+        { url: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&q=80", alt: "Madinah" },
+        { url: "https://images.unsplash.com/photo-1609153222369-6b9d5a4dfe6a?w=400&q=80", alt: "Ziarah" },
+        { url: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=400&q=80", alt: "Raudhah" },
+        { url: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&q=80", alt: "Jamaah Madinah" },
+        { url: "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=400&q=80", alt: "Kubah Hijau" }
+      ]
+    }
+  ],
+
+  timeline: [
+  { icon: "bi-chat-dots",        step: "Langkah 1", title: "Konsultasi Gratis",              desc: "Diskusi santai bersama Pak Yusuf — paket mana yang cocok, budget, dan jadwal yang sesuai. Tanpa tekanan sama sekali.",         done: true  },
+  { icon: "bi-pencil-square",    step: "Langkah 2", title: "Pendaftaran & Pengurusan Dokumen", desc: "Semua dokumen dibantu — paspor, visa, hingga formulir keberangkatan. Jamaah tidak perlu bingung.",                           done: true  },
+  { icon: "bi-bank2",            step: "Langkah 3", title: "Dana Aman di Bank BSI",           desc: "Dana ditempatkan di rekening atas nama jamaah sendiri — bukan rekening travel. Terjaga penuh sampai keberangkatan.",           done: true  },
+  { icon: "bi-journal-check",    step: "Langkah 4", title: "Bimbingan Manasik",               desc: "Pembekalan ibadah, tata cara umroh, dan persiapan mental bersama seluruh jamaah rombongan.",                                  done: false },
+  { icon: "bi-airplane-engines", step: "Langkah 5", title: "Pelepasan & Keberangkatan",       desc: "Jamaah dilepas bersama rombongan, didampingi pembimbing berpengalaman dari bandara hingga tiba di Tanah Suci.",               done: false },
+  { icon: "bi-geo-alt",          step: "Langkah 6", title: "Ibadah & Ziarah di Tanah Suci",   desc: "Melaksanakan umroh, tawaf, sa'i, serta ziarah ke lokasi-lokasi bersejarah di Makkah dan Madinah.",                           done: false },
+  { icon: "bi-house-heart",      step: "Langkah 7", title: "Tiba Kembali dengan Selamat",     desc: "Seluruh jamaah dipastikan tiba kembali ke rumah dengan selamat. Amanah terpenuhi, hati tenang.",                             done: false }
+],
+
+  testimonials: [
+  {
+    stars: 5,
+    quote: "Awalnya tidak percaya — umroh dulu baru bayar? Tapi benar adanya. Sudah di Masjidil Haram, uang masih utuh di rekening BSI. Alhamdulillah, subhanallah.",
+    name: "Hj. Fatimah Azzahra", kecamatan: "Pragaan", tahun: "2024", initial: "F", photo: null
+  },
+  {
+    stars: 5,
+    quote: "Pak Yusuf orangnya sabar dan teliti. Semua pertanyaan dijawab tuntas. Terasa seperti dibantu orang yang sudah lama dikenal.",
+    name: "Bapak Ridwan Santoso", kecamatan: "Lenteng", tahun: "2024", initial: "R", photo: null
+  },
+  {
+    stars: 5,
+    quote: "Ibu saya sudah lama ingin umroh. Pak Yusuf mendampingi semua proses, termasuk kebutuhan khusus beliau yang sudah lansia. Jazakallah khairan.",
+    name: "Ahmad Fauzi", kecamatan: "Bluto", tahun: "2023", initial: "A", photo: null
+  },
+  {
+    stars: 5,
+    quote: "Prosesnya mudah sekali. Dokumen dibantu semua, manasiknya jelas, dan berangkatnya tenang. Tidak nyangka umroh bisa semudah ini.",
+    name: "Ibu Halimah", kecamatan: "Kalianget", tahun: "2024", initial: "H", photo: null
+  },
+  {
+    stars: 5,
+    quote: "Alhamdulillah bisa umroh bareng suami. Pak Yusuf sabar menemani dari awal sampai kami berangkat. Semoga beliau selalu diberi kesehatan.",
+    name: "Ibu Siti Aisyah", kecamatan: "Guluk-Guluk", tahun: "2023", initial: "S", photo: null
+  }
+],
+
+  advantages: [
+  { icon: "bi-clock-history",  title: "Waktu Ibadah Lebih Maksimal",      sub: "Durasi terlama di Tanah Suci",        desc: "Paket dirancang agar waktu di Makkah dan Madinah benar-benar bermakna — minimal 8 malam di dua kota suci. Bukan sekadar transit, tapi beribadah dengan tenang dan khusyuk." },
+  { icon: "bi-arrow-repeat",   title: "4× Kesempatan Umroh",              sub: "Terbanyak dalam satu perjalanan",     desc: "Kebanyakan travel hanya memfasilitasi 1–2 kali umroh. Salam Travel memastikan jamaah dapat melaksanakan umroh hingga 4 kali dengan bimbingan muthawwif berpengalaman." },
+  { icon: "bi-geo-alt-fill",   title: "7 Lokasi Ziarah Bersejarah",       sub: "Dipilih yang paling bermakna",        desc: "Jabal Nur, Jabal Tsur, Masjid Quba, Masjid Qiblatain, hingga Makam Baqi — 7 lokasi yang dipilih karena makna spiritual dan historisnya bagi setiap jamaah." },
+  { icon: "bi-shield-check",   title: "Sistem PAS — Dana Jamaah Terjaga", sub: "Berangkat dulu, bayar setelah pulang", desc: "Tidak ada travel lain di Indonesia yang menerapkan ini. Dana jamaah terlindungi di rekening atas nama jamaah sendiri, diawasi Bank BSI, dan hanya berpindah setelah keberangkatan terbukti." }
+],
+
+  offices: [
+    {
+      label: "Kantor Cabang Sumenep",
+      name:  "Salam Travel Sumenep",
+      addr:  "Jl. KH Mansyur 31 (LaGalleria Hotel), Sumenep, Madura",
+      hours: "Senin–Sabtu: 08.00–17.00 WIB",
+      mapEmbed: "https://maps.google.com/maps?q=Sumenep,+Madura&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    },
+    {
+      label: "Kantor Pusat Bandung",
+      name:  "Salam Travel Bandung",
+      addr:  "Salam Travel Blok E, Campaka, Andir, Bandung 40175",
+      hours: "Senin–Sabtu: 08.00–17.00 WIB",
+      mapEmbed: "https://maps.google.com/maps?q=Bandung,+Jawa+Barat&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    }
+  ],
+
+  legalItems: [
+    { icon: "bi-file-earmark-check-fill", title: "PPIU Kemenag RI",          desc: "No. 2010.22.00117.44.0002",          verified: false, verifyLabel: "Verifikasi",  verifyUrl: "#" },
+    { icon: "bi-bank2",                   title: "Mitra Resmi Bank BSI",      desc: "Validator dana jamaah independen",    verified: true,  verifyLabel: "Aktif" },
+    { icon: "bi-building-check",          title: "PT. Shahibuna Sabila Salam",desc: "Badan hukum terdaftar & aktif",       verified: false, verifyLabel: "Cek AHU",    verifyUrl: "#" },
+    { icon: "bi-shield-fill-check",       title: "Asuransi Jiwa Jamaah",      desc: "Perlindungan penuh selama perjalanan",verified: true,  verifyLabel: "Aktif" }
+  ],
+
+  faqs: [
+    { q: "Apakah benar tidak perlu transfer dulu ke travel?",          a: "Benar. Dana Anda ditempatkan di rekening atas nama Anda sendiri di Bank BSI — bukan rekening Salam Travel. Anda tetap memiliki kendali penuh atas uang tersebut sampai Anda terbukti telah berangkat." },
+    { q: "Bagaimana peran Bank BSI dalam sistem ini?",                 a: "BSI berperan sebagai validator resmi independen. Mereka memastikan dana Anda aman dan hanya memindahkan ke rekening Salam Travel setelah ada konfirmasi keberangkatan. Proses ini otomatis dan transparan." },
+    { q: "Apa itu PPIU dan kenapa penting?",                           a: "PPIU adalah izin resmi dari Kementerian Agama RI yang wajib dimiliki setiap travel umroh legal. Tanpa PPIU, travel beroperasi ilegal dan jamaah tidak punya perlindungan hukum. Salam Travel ber-PPIU resmi." },
+    { q: "Bisa dicicil berapa lama?",                                  a: "Cicilan tersedia hingga 30 bulan melalui skema syariah. Tidak ada riba, tidak ada biaya tersembunyi. Syarat cukup KTP dan nomor telepon aktif." },
+    { q: "Apakah Pak Yusuf mendampingi langsung ke Tanah Suci?",      a: "Ya, saya mendampingi langsung setiap rombongan yang saya berangkatkan. Saya ada bersama Anda dari persiapan di Bandara, selama di Saudi, hingga kembali ke Indonesia." },
+    { q: "Bisa berangkat sekeluarga atau rombongan?",                  a: "Tentu. Kami melayani pendaftaran keluarga, rombongan pengajian, atau rombongan kantor. Ada harga khusus untuk grup di atas 10 orang. Hubungi saya untuk diskusi lebih lanjut." }
+  ],
+
+  kit: {
+    brochures: [
+      { label: "Brosur Paket Reguler & Hemat",   url: "#" },
+      { label: "Brosur Paket Premium & Plus Turki", url: "#" }
+    ],
+    brochureUpdated: "Juni 2025",
+    companyProfile: {
+      stats: [
+        { value: "12+",  label: "Tahun Pengalaman" },
+        { value: "5rb+", label: "Jamaah Diberangkatkan" },
+        { value: "98%",  label: "Kepuasan Jamaah" }
+      ],
+      description: "Salam Travel hadir sebagai solusi atas kekhawatiran jamaah umroh yang gagal berangkat. Dengan Sistem PAS (Pay After Safar), kami menjadi satu-satunya travel di Indonesia yang memberikan jaminan nyata — bukan sekadar janji di brosur.<br><br>Berdiri sejak 2012, kami telah memberangkatkan lebih dari 5.000 jamaah dari seluruh Indonesia."
+    }
+  },
+
+mitra: {
+  kuota: 127,
+  benefits: [
+    { icon: "bi-cash-coin",        title: "Komisi Per Jamaah",         desc: "Dapatkan komisi langsung untuk setiap jamaah yang berhasil diberangkatkan" },
+    { icon: "bi-journal-check",    title: "Training & Materi Manasik", desc: "Materi lengkap, bimbingan langsung, dan dukungan penuh dari tim Salam Travel" },
+    { icon: "bi-headset",          title: "Support Pak Yusuf",         desc: "Didampingi langsung oleh Pak Yusuf untuk konsultasi dan pengembangan jaringan" },
+    { icon: "bi-megaphone",        title: "Materi Promosi Siap Pakai", desc: "Brosur, banner digital, dan konten sosial media tersedia untuk semua mitra" }
+  ],
+  waNumber: "6285292300300"
+},
+
+}; // end siteConfig
+</script>
+
+
+<!-- ============================================================
+     RENDER ENGINE
+     ============================================================ -->
+<script>
+(function () {
+  const cfg = siteConfig;
+
+  const waLink = (num, msg) => `https://wa.me/${num}?text=${encodeURIComponent(msg)}`;
+  const fmtRp  = n => 'Rp ' + (+n).toLocaleString('id-ID');
+  const agentMsg = `Assalamu'alaikum Pak Yusuf, saya ingin konsultasi paket umroh Salam Travel.\nMohon bantu info lebih lanjut 🙏`;
+
+  // --- NAVBAR ---
+  const av = document.getElementById('navAvatar');
+  if (cfg.agent.photo) {
+    av.style.padding = '0';
+    av.style.overflow = 'hidden';
+    av.innerHTML = `<img src="${cfg.agent.photo}" alt="${cfg.agent.name}" style="width:100%;height:100%;border-radius:50%;object-fit:cover;">`;
+  } else {
+    av.textContent = cfg.agent.initial;
+  }
+  document.getElementById('navName').textContent = cfg.agent.name;
+  document.getElementById('navWaBtn').href = waLink(cfg.agent.wa, agentMsg);
+
+  // --- HERO ---
+  document.getElementById('heroBg').style.backgroundImage = `url('${cfg.agent.heroImage}')`;
+  
+  document.getElementById('heroTitle').innerHTML = `Berangkat Bersama Orang Yang Anda <span class="gold">Kenal & Percaya.</span>`;
+  document.getElementById('heroSub').textContent = 'Haji Ucup dikenal di Sumenep-Madura, dipercaya jamaah. Mendampingi dari pendaftaran hingga berangkat dengan tenang.';
+  
+  document.getElementById('heroWaBtn').href = waLink(cfg.agent.wa, agentMsg);
+
+  document.getElementById('heroTrust').innerHTML = cfg.agent.stats.map(s => `
+    <div class="hero-trust-item">
+      <div class="hero-trust-val" ${!s.isText ? `data-count="${s.value}"` : ''}>${s.isText ? s.value : '0'}</div>
+      <div class="hero-trust-lbl">${s.label.replace('\n','<br>')}</div>
+    </div>
+  `).join('');
+
+  // --- LAYANAN ---
+  document.getElementById('layananGrid').innerHTML = cfg.agent.services.map(s => `
+    <div class="layanan-card">
+      <div class="layanan-icon"><i class="bi ${s.icon}"></i></div>
+      <div class="layanan-title">${s.title}</div>
+      <div class="layanan-desc">${s.desc}</div>
+    </div>
+  `).join('');
+
+// --- TENTANG ---
+const tentangInner = document.getElementById('tentangInner');
+if (tentangInner) {
+  const photoHtml = cfg.tentang.photo
+    ? `<div class="tentang-photo"><img src="${cfg.tentang.photo}" alt="Pak Yusuf"></div>`
+    : `<div class="tentang-photo"><div class="tentang-photo-placeholder"><i class="bi bi-person-circle"></i></div></div>`;
+  
+  const parasHtml = cfg.tentang.paragraphs.map(p => `<p>${p}</p>`).join('');
+  const quoteHtml = cfg.tentang.quote
+    ? `<div class="tentang-quote"><p>"${cfg.tentang.quote}"</p></div>`
+    : '';
+
+  tentangInner.innerHTML = `
+    ${photoHtml}
+    <div class="tentang-body">
+      ${parasHtml}
+      ${quoteHtml}
+    </div>`;
+}
+
+// --- WILAYAH ---
+const wilayahGrid = document.getElementById('wilayahGrid');
+if (wilayahGrid) {
+  wilayahGrid.innerHTML = cfg.wilayah.map(w => `
+    <div class="wilayah-chip">
+      <i class="bi ${w.icon}"></i> ${w.nama}
+    </div>
+  `).join('');
+}
+
+// --- TOKOH ---
+const tokohScroll = document.getElementById('tokohScroll');
+if (tokohScroll) {
+  tokohScroll.innerHTML = cfg.tokoh.map(t => `
+    <div class="tokoh-card">
+      <div class="tokoh-photo">
+        ${t.photo
+          ? `<img src="${t.photo}" alt="${t.nama}">`
+          : `<div class="tokoh-photo-init">${t.initial}</div>`}
+      </div>
+      <div class="tokoh-body">
+        <div class="tokoh-peran">${t.peran}</div>
+        <div class="tokoh-nama">${t.nama}</div>
+        <div class="tokoh-jabatan">${t.jabatan}</div>
+        <div class="tokoh-kec"><i class="bi bi-geo-alt-fill"></i> ${t.kecamatan}</div>
+      </div>
+    </div>
+  `).join('');
+
+  // dots tokoh
+  cfg.tokoh.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'testi-dot' + (i === 0 ? ' active' : '');
+    document.getElementById('tokohDots').appendChild(d);
+  });
+
+  // sync dots scroll
+  // sync dots scroll
+  tokohScroll.addEventListener('scroll', () => {
+    const cards = tokohScroll.querySelectorAll('.tokoh-card');
+    const cardWidth = cards[0]?.offsetWidth + 16;
+    const idx = Math.round(tokohScroll.scrollLeft / cardWidth);
+    document.querySelectorAll('#tokohDots .testi-dot').forEach((d, i) => {
+      d.classList.toggle('active', i === idx);
+    });
+  }, { passive: true });
+
+  // dots klik
+  document.querySelectorAll('#tokohDots .testi-dot').forEach((d, i) => {
+    d.addEventListener('click', () => {
+      const cards = tokohScroll.querySelectorAll('.tokoh-card');
+      const cardWidth = cards[0]?.offsetWidth + 16;
+      tokohScroll.scrollTo({ left: i * cardWidth, behavior: 'smooth' });
+    });
+  });
+}
+
+
+  // --- PAS STEPS ---
+  document.getElementById('pasSteps').innerHTML = cfg.pasSteps.map((step, i) => `
+    <div class="pas-step">
+      <div class="pas-step-left">
+        <div class="pas-num">${i + 1}</div>
+        <div class="pas-line"></div>
+      </div>
+      <div class="pas-body">
+        <h3>${step.title}</h3>
+        <p>${step.desc}</p>
+      </div>
+    </div>
+  `).join('');
+
+  document.getElementById('pasBsi').innerHTML = `
+    <div class="pas-bsi-logo"><i class="bi bi-bank2"></i></div>
+    <div class="pas-bsi-text">
+      <p>Divalidasi dan dijamin oleh</p>
+      <strong>Bank Syariah Indonesia (BSI)</strong>
+    </div>`;
+
+// --- PAKET ---
+  const defaultDurasi = '16';
+  document.getElementById('paketList').innerHTML = cfg.packages.map(pkg => `
+    <div class="paket-card${pkg.featured ? ' featured' : ''}${pkg.category === defaultDurasi ? ' show' : ''}" data-cat="${pkg.category}">
+      ${pkg.badge ? `<div class="paket-head"><span class="paket-badge badge-best"><i class="bi ${pkg.badge.icon}"></i> ${pkg.badge.text}</span></div>` : ''}
+      <div class="paket-name">${pkg.name}</div>
+      <div class="paket-dur"><i class="bi bi-airplane"></i> ${pkg.duration}</div>
+      <div class="paket-hotel">
+        <div><i class="bi bi-building"></i> Hotel Makkah: <strong>${pkg.hotelMakkah}</strong></div>
+        <div><i class="bi bi-building"></i> Hotel Madinah: <strong>${pkg.hotelMadinah}</strong></div>
+      </div>
+      ${pkg.free ? `<div class="paket-free"><i class="bi bi-gift"></i> Free: ${pkg.free.join(', ')}</div>` : ''}
+      <div class="paket-price-row">
+        <div class="paket-price">${fmtRp(pkg.price)}</div>
+      </div>
+      <div class="paket-feats">${pkg.features.map(f => `<span class="feat"><i class="bi ${f.icon}"></i> ${f.text}</span>`).join('')}</div>
+      <div class="paket-actions">
+        <button class="btn btn-primary" onclick="daftarWA('${pkg.name.replace(/'/g,"\\'")}','${pkg.price}')"><i class="bi bi-whatsapp"></i> Daftar via WA</button>
+        <button class="btn btn-outline" onclick="openLightbox('${pkg.poster}')"><i class="bi bi-image"></i> Detail</button>
+      </div>
+    </div>
+  `).join('');
+
+  const cats = ['10', '16', '20'];
+  const catLabel = { '10': '10 Hari', '16': '16 Hari', '20': '20 Hari' };
+  document.getElementById('filterTabs').innerHTML = cats.map(c =>
+    `<button class="tab ${c === defaultDurasi ? 'active' : ''}" data-filter="${c}">${catLabel[c]}</button>`
+  ).join('');
+
+  // --- GALERI ---
+  let activeAlbum = 0;
+  function renderAlbum(idx) {
+    const alb = cfg.galeri[idx];
+    document.getElementById('albumGrid').innerHTML = alb.photos.map((p, i) => `
+      <div class="album-photo" onclick="openLightbox('${p.url}')">
+        <img src="${p.url}" alt="${p.alt}" loading="lazy">
+        <div class="album-photo-overlay"><i class="bi bi-zoom-in"></i></div>
+      </div>
+    `).join('');
+    document.getElementById('albumCaption').innerHTML = `<i class="bi bi-camera"></i> ${alb.caption}`;
+    document.querySelectorAll('.album-tab').forEach((t, i) => t.classList.toggle('active', i === idx));
+    activeAlbum = idx;
+  }
+  document.getElementById('albumTabs').innerHTML = cfg.galeri.map((a, i) =>
+    `<button class="album-tab ${i === 0 ? 'active' : ''}" onclick="renderAlbum(${i})">${a.label}</button>`
+  ).join('');
+  window.renderAlbum = renderAlbum;
+  renderAlbum(0);
+
+  // --- TIMELINE ---
+  document.getElementById('tlList').innerHTML = cfg.timeline.map((t, i) => `
+    <div class="tl-item" style="transition-delay:${i * 0.07}s">
+      <div class="tl-left">
+        <div class="tl-dot ${t.done ? 'done' : ''}"><i class="bi ${t.done ? 'bi-check-lg' : t.icon}"></i></div>
+        <div class="tl-connector"></div>
+      </div>
+      <div class="tl-body">
+        <div class="tl-step">${t.step}</div>
+        <div class="tl-title">${t.title}</div>
+        <div class="tl-desc">${t.desc}</div>
+      </div>
+    </div>
+  `).join('');
+
+  // --- KEUNGGULAN ---
+  document.getElementById('unggulanList').innerHTML = cfg.advantages.map((a, i) => `
+    <div class="unggulan-item">
+      <div class="unggulan-hd" onclick="toggleUnggulan(this)">
+        <div class="unggulan-icon-wrap"><i class="bi ${a.icon}"></i></div>
+        <div class="unggulan-tw">
+          <div class="unggulan-title">${a.title}</div>
+          <div class="unggulan-sub">${a.sub}</div>
+        </div>
+        <i class="bi bi-plus-lg unggulan-toggle"></i>
+      </div>
+      <div class="unggulan-body"><div class="unggulan-body-inner">${a.desc}</div></div>
+    </div>
+  `).join('');
+
+  // --- LOKASI ---
+document.getElementById('lokasiGrid').innerHTML = cfg.brand.offices.map(o => `
+  <div class="lokasi-card">
+    <div class="lokasi-photo">
+      ${o.photo
+        ? `<img src="${o.photo}" alt="${o.name}">`
+        : `<div class="lokasi-photo-placeholder">
+            <i class="bi bi-building"></i>
+            <span>Foto kantor segera hadir</span>
+           </div>`}
+    </div>
+    <div class="lokasi-info">
+      <div class="lokasi-label">${o.label}</div>
+      <div class="lokasi-name">${o.name}</div>
+      <div class="lokasi-addr"><i class="bi bi-geo-alt"></i> ${o.addr}</div>
+      <div class="lokasi-hours"><i class="bi bi-clock"></i> ${o.hours}</div>
+      <div class="lokasi-actions">
+        <a href="${o.mapsUrl}" target="_blank" class="btn btn-outline btn-sm">
+          <i class="bi bi-map"></i> Google Maps
+        </a>
+        <a href="https://wa.me/${o.wa}?text=${encodeURIComponent('Assalamu\'alaikum, saya ingin bertanya tentang Salam Travel 🙏')}" 
+           target="_blank" class="btn btn-wa btn-sm">
+          <i class="bi bi-whatsapp"></i> Chat WA
+        </a>
+      </div>
+    </div>
+  </div>
+`).join('');
+
+  // --- LEGALITAS ---
+  document.getElementById('legalGrid').innerHTML = cfg.legalItems.map(l => `
+    <div class="legal-item">
+      <div class="legal-icon"><i class="bi ${l.icon}"></i></div>
+      <div class="legal-text"><strong>${l.title}</strong><span>${l.desc}</span></div>
+      ${l.verified
+        ? `<span class="legal-verify verified"><i class="bi bi-check-circle-fill"></i> ${l.verifyLabel}</span>`
+        : `<a href="${l.verifyUrl}" class="legal-verify check" target="_blank">${l.verifyLabel} <i class="bi bi-box-arrow-up-right"></i></a>`}
+    </div>
+  `).join('');
+
+  // --- FAQ ---
+  document.getElementById('faqList').innerHTML = `<div class="faq-list">` + cfg.faqs.map(f => `
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">${f.q}<div class="faq-toggle"><i class="bi bi-plus-lg"></i></div></div>
+      <div class="faq-a"><div class="faq-a-inner">${f.a}</div></div>
+    </div>
+  `).join('') + `</div>`;
+
+  // --- CTA CLOSING ---
+  document.getElementById('ctaSub').textContent = `Konsultasi gratis bersama Pak Yusuf. Tanpa tekanan, tanpa komitmen awal — cukup ngobrol dulu.`;
+  document.getElementById('ctaWaBtn').href = waLink(cfg.agent.wa, agentMsg);
+  const num = cfg.agent.wa.replace(/^62/, '0').replace(/(\d{4})(\d{4})(\d{4,})/, '$1-$2-$3');
+  document.getElementById('ctaTelp').textContent = num;
+  document.getElementById('ctaTelp').href = 'tel:+' + cfg.agent.wa;
+
+  // --- KIT MODAL ---
+  document.getElementById('kitItems').innerHTML = `
+    <button class="kit-item" onclick="openSub('brosur')" style="transition-delay:0.04s">
+      <div class="kit-icon"><i class="bi bi-file-earmark-pdf"></i></div>
+      <div><div class="kit-item-label">Brosur Paket</div><div class="kit-item-desc">Download PDF semua paket</div></div>
+      <i class="bi bi-chevron-right kit-arrow"></i>
+    </button>
+    <button class="kit-item" onclick="openSub('legal')" style="transition-delay:0.08s">
+      <div class="kit-icon"><i class="bi bi-patch-check"></i></div>
+      <div><div class="kit-item-label">Legalitas & Izin</div><div class="kit-item-desc">PPIU, SK Kemenag, validasi BSI</div></div>
+      <i class="bi bi-chevron-right kit-arrow"></i>
+    </button>
+    <button class="kit-item" onclick="openSub('profil')" style="transition-delay:0.12s">
+      <div class="kit-icon"><i class="bi bi-building"></i></div>
+      <div><div class="kit-item-label">Profil Perusahaan</div><div class="kit-item-desc">Tentang ${cfg.brand.name}</div></div>
+      <i class="bi bi-chevron-right kit-arrow"></i>
+    </button>
+    <div class="kit-divider"></div>
+    <button class="kit-item" onclick="salinLink()" style="transition-delay:0.20s">
+      <div class="kit-icon"><i class="bi bi-link-45deg"></i></div>
+      <div><div class="kit-item-label">Salin Link Agent</div><div class="kit-item-desc">profilink.id/salamtravel/${cfg.agent.slug}</div></div>
+      <i class="bi bi-chevron-right kit-arrow"></i>
+    </button>
+    <div class="kit-divider"></div>
+    <button class="kit-item" onclick="openSub('compare')" style="transition-delay:0.24s">
+      <div class="kit-icon"><i class="bi bi-bar-chart-line"></i></div>
+      <div><div class="kit-item-label">Perbandingan Paket</div><div class="kit-item-desc">Tabel lengkap semua paket</div></div>
+      <i class="bi bi-chevron-right kit-arrow"></i>
+    </button>
+    <button class="kit-item" onclick="openSub('kalc')" style="transition-delay:0.28s">
+      <div class="kit-icon"><i class="bi bi-calculator"></i></div>
+      <div><div class="kit-item-label">Kalkulator Cicilan</div><div class="kit-item-desc">Hitung sesuai budget kamu</div></div>
+      <i class="bi bi-chevron-right kit-arrow"></i>
+    </button>`;
+
+  document.getElementById('kitWaBtn').href = waLink(cfg.agent.wa, agentMsg);
+
+  window.__cfg = cfg;
+  window.__waLink = waLink;
+  window.__fmtRp = fmtRp;
+  window.__agentMsg = agentMsg;
+
+})();
+</script>
+
+<!-- ============================================================
+     MITRA AGENT
+     ============================================================ -->
+<section class="mitra" id="mitra">
+  <div class="wrap">
+    <div class="mitra-inner">
+      <div class="reveal">
+        <div class="sec-eyebrow">Bergabung sebagai Mitra</div>
+        <h2 class="sec-title">Bantu Jamaah di Desamu<br><em>Menuju Baitullah.</em></h2>
+        <p class="sec-desc">Jadilah perpanjangan tangan Pak Yusuf di kecamatanmu. Bantu sesama — dan dapatkan penghasilan yang berkah.</p>
+      </div>
+      <div class="mitra-counter reveal" id="mitraCounter"></div>
+      <div class="mitra-benefits reveal" id="mitraBenefits"></div>
+      <div class="mitra-scarcity reveal">
+        <i class="bi bi-exclamation-circle-fill"></i>
+        Kuota mitra terbatas — hanya 1 mitra utama per kecamatan.
+      </div>
+      <div class="mitra-cta reveal">
+        <button class="btn btn-accent btn-lg" onclick="openMitra()">
+          <i class="bi bi-person-plus"></i> Daftar Jadi Agen/Jamaah Sekarang
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MODAL MITRA -->
+<div class="mitra-overlay" id="mitraOverlay" onclick="closeMitraOutside(event)">
+  <div class="mitra-modal" id="mitraModal">
+    <div class="mitra-modal-head">
+      <button class="mitra-modal-close" onclick="closeMitra()"><i class="bi bi-x-lg"></i></button>
+      <img src="https://salamku.pro/wp-content/uploads/2026/06/Logo-Salam-Travel.png" alt="Salam Travel">
+      <div class="mitra-modal-headline">Bergabunglah.<br>Berkah Menanti.</div>
+      <div class="mitra-modal-sub">Ribuan jamaah menunggu pendamping yang mereka percaya — mungkin itu Anda.</div>
+    </div>
+    <div class="mitra-modal-body">
+    <div class="mitra-modal-scarcity">
+        <i class="bi bi-clock-fill"></i>
+        Kuota terbatas · 1 mitra utama per kecamatan · Daftarkan wilayahmu sekarang
+      </div>
+      <div class="mitra-divider"></div>
+
+<!-- FORM -->
+      <div id="mitraFormWrap">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+  <div>
+    <label class="mitra-form-label">Nama Lengkap *</label>
+    <input class="mitra-form-input" id="mitraNama" type="text" placeholder="Nama lengkap" style="margin-bottom:0">
+  </div>
+  <div>
+    <label class="mitra-form-label">No. WhatsApp *</label>
+    <input class="mitra-form-input" id="mitraWa" type="tel" placeholder="08xxxxxxxxxx" style="margin-bottom:0">
+  </div>
+</div>
+
+<label class="mitra-form-label">Pilih Provinsi</label>
+<select class="mitra-form-select" disabled style="margin-bottom:10px">
+  <option>— Pilih Provinsi (38 Provinsi) —</option>
+</select>
+
+<label class="mitra-form-label">Pilih Kabupaten / Kota</label>
+<select class="mitra-form-select" disabled style="margin-bottom:10px">
+  <option>— Pilih Kabupaten / Kota —</option>
+</select>
+
+<label class="mitra-form-label">Pilih Kecamatan</label>
+<select class="mitra-form-select" disabled style="margin-bottom:10px">
+  <option>— Pilih Kecamatan —</option>
+</select>
+
+<label class="mitra-form-label">Pilih Desa / Kelurahan</label>
+<select class="mitra-form-select" disabled style="margin-bottom:10px">
+  <option>— Pilih Desa / Kelurahan —</option>
+</select>
+
+<label class="mitra-form-label">Alamat Lengkap *</label>
+<input class="mitra-form-input" id="mitraAlamat" type="text" placeholder="Nama jalan, RT/RW, nomor rumah" style="margin-bottom:10px">
+
+<div class="mitra-form-note">
+  <i class="bi bi-lock-fill"></i>
+  Data hanya untuk verifikasi wilayah mitra
+</div>
+
+<div class="mitra-form-actions" style="margin-top:14px">
+  <button class="btn btn-outline" onclick="closeMitra()">Batal</button>
+  <button class="btn btn-primary" onclick="kirimMitra()">
+    <i class="bi bi-send"></i> Kirim Pendaftaran
+  </button>
+</div>
+
+</div>
+
+      <!-- SUKSES -->
+      <div class="mitra-success" id="mitraSuccess">
+        <i class="bi bi-check-circle-fill"></i>
+        <p><strong>Data diterima!</strong><br>Segera buka WhatsApp Anda — pesan konfirmasi sedang dikirim.</p>
+      </div>
+
+</div>
+  </div>
+</div>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-brand">
+      <img src="https://salamku.pro/wp-content/uploads/2026/06/Logo-Salam-Travel.png" alt="Salam Travel" id="footerLogo">
+    </div>
+    <div class="footer-pt" id="footerLegal"></div>
+    <div class="footer-ppiu" id="footerPpiu"></div>
+    <div class="footer-offices" id="footerOffices"></div>
+    <div class="footer-social">
+      <a href="#" class="social-link" id="socialWeb"><i class="bi bi-globe"></i></a>
+      <a href="#" class="social-link" id="socialFb"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="social-link" id="socialIg"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="social-link" id="socialTt"><i class="bi bi-tiktok"></i></a>
+      <a href="#" class="social-link" id="socialYt"><i class="bi bi-youtube"></i></a>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 <span id="footerName"></span> · Semua hak dilindungi</div>
+      <div class="footer-powered">Powered by <span>ProfiLink ✦</span></div>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     INTERACTIONS
+     ============================================================ -->
+<script>
+const cfg      = window.__cfg;
+const waLink   = window.__waLink;
+const fmtRp    = window.__fmtRp;
+const agentMsg = window.__agentMsg;
+
+// --- FOOTER ---
+document.getElementById('footerLegal').textContent = cfg.brand.legalName;
+document.getElementById('footerPpiu').textContent = cfg.brand.ppiu;
+document.getElementById('footerName').textContent = cfg.brand.name;
+document.getElementById('footerOffices').innerHTML = cfg.brand.offices.map(o => `
+  <div class="footer-office">
+    <div class="footer-office-label"><i class="bi bi-geo-alt"></i> ${o.label}</div>
+    ${o.addr}
+  </div>
+`).join('');
+
+if (cfg.brand.social) {
+  const s = cfg.brand.social;
+  if (s.web) document.getElementById('socialWeb').href = s.web;
+  if (s.fb)  document.getElementById('socialFb').href = s.fb;
+  if (s.ig)  document.getElementById('socialIg').href = s.ig;
+  if (s.tt)  document.getElementById('socialTt').href = s.tt;
+  if (s.yt)  document.getElementById('socialYt').href = s.yt;
+}
+
+// --- MITRA ---
+document.getElementById('mitraCounter').innerHTML = `
+  <div class="mitra-counter-num">${cfg.mitra.kuota}</div>
+  <div class="mitra-counter-txt">mitra aktif<br>di 12 provinsi</div>`;
+
+document.getElementById('mitraBenefits').innerHTML = cfg.mitra.benefits.map(b => `
+  <div class="mitra-benefit">
+    <div class="mitra-benefit-icon"><i class="bi ${b.icon}"></i></div>
+    <div>
+      <div class="mitra-benefit-title">${b.title}</div>
+      <div class="mitra-benefit-desc">${b.desc}</div>
+    </div>
+  </div>
+`).join('');
+
+// --- NAVBAR SCROLL ---
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+}, { passive: true });
+
+// --- SCROLL REVEAL ---
+const revealObs = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('visible'), i * 60);
+      revealObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal, .pas-step, .tl-item').forEach(el => revealObs.observe(el));
+
+// --- COUNT-UP ---
+const countObs = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const target = +e.target.dataset.count;
+      let cur = 0;
+      const step = Math.max(target / 24, 0.01);
+      const t = setInterval(() => {
+        cur = Math.min(cur + step, target);
+        e.target.textContent = Math.round(cur);
+        if (cur >= target) clearInterval(t);
+      }, 55);
+      countObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.5 });
+document.querySelectorAll('[data-count]').forEach(el => countObs.observe(el));
+
+// --- PAKET FILTER ---
+document.getElementById('filterTabs').addEventListener('click', e => {
+  const tab = e.target.closest('.tab');
+  if (!tab) return;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  const f = tab.dataset.filter;
+  document.querySelectorAll('.paket-card').forEach(c => {
+    c.classList.toggle('show', c.dataset.cat === f);
+  });
+});
+
+// --- DAFTAR WA ---
+function daftarWA(paket, harga) {
+  const msg = `Assalamu'alaikum Pak Yusuf, saya ingin daftar:\nPaket: ${paket}\nHarga: ${fmtRp(harga)}\n\nMohon info selanjutnya 🙏`;
+  window.open(waLink(cfg.agent.wa, msg), '_blank');
+}
+
+// --- TESTIMONI ---
+const testiScroll = document.getElementById('testiScroll');
+const testiDots   = document.getElementById('testiDots');
+
+testiScroll.innerHTML = cfg.testimonials.map(t => `
+  <div class="testi-card">
+    <div class="testi-photo">
+      ${t.photo
+        ? `<img src="${t.photo}" alt="${t.name}">`
+        : `<div class="testi-photo-init">${t.initial}</div>`}
+    </div>
+    <div class="testi-body">
+      <div class="testi-stars">${'★'.repeat(t.stars)}</div>
+      <div class="testi-quote">"${t.quote}"</div>
+      <div class="testi-name">${t.name}</div>
+      <div class="testi-meta">
+        <i class="bi bi-geo-alt-fill"></i>
+        <span>${t.kecamatan}</span>
+        <div class="testi-divider"></div>
+        <span>Berangkat ${t.tahun}</span>
+      </div>
+    </div>
+  </div>
+`).join('');
+
+// dots
+cfg.testimonials.forEach((_, i) => {
+  const d = document.createElement('div');
+  d.className = 'testi-dot' + (i === 0 ? ' active' : '');
+  testiDots.appendChild(d);
+});
+
+// sync dots saat scroll
+testiScroll.addEventListener('scroll', () => {
+  const cards = testiScroll.querySelectorAll('.testi-card');
+  const scrollLeft = testiScroll.scrollLeft;
+  const cardWidth  = cards[0]?.offsetWidth + 14;
+  const idx = Math.round(scrollLeft / cardWidth);
+  document.querySelectorAll('.testi-dot').forEach((d, i) => {
+    d.classList.toggle('active', i === idx);
+  });
+}, { passive: true });
+
+// dots klik
+document.querySelectorAll('.testi-dot').forEach((d, i) => {
+  d.addEventListener('click', () => {
+    const cards = testiScroll.querySelectorAll('.testi-card');
+    const cardWidth = cards[0]?.offsetWidth + 14;
+    testiScroll.scrollTo({ left: i * cardWidth, behavior: 'smooth' });
+  });
+});
+
+// --- UNGGULAN ACCORDION ---
+function toggleUnggulan(hd) {
+  const item = hd.closest('.unggulan-item');
+  const body = item.querySelector('.unggulan-body');
+  const open = item.classList.contains('open');
+  document.querySelectorAll('.unggulan-item').forEach(i => {
+    i.classList.remove('open');
+    i.querySelector('.unggulan-body').style.maxHeight = '0';
+  });
+  if (!open) { item.classList.add('open'); body.style.maxHeight = body.scrollHeight + 'px'; }
+}
+window.toggleUnggulan = toggleUnggulan;
+
+// --- FAQ ---
+function toggleFaq(q) {
+  const item = q.closest('.faq-item');
+  const ans  = item.querySelector('.faq-a');
+  const open = item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(i => {
+    i.classList.remove('open'); i.querySelector('.faq-a').style.maxHeight = '0';
+  });
+  if (!open) { item.classList.add('open'); ans.style.maxHeight = ans.scrollHeight + 'px'; }
+}
+window.toggleFaq = toggleFaq;
+
+// --- LIGHTBOX ---
+function openLightbox(url) {
+  document.getElementById('lightboxImg').src = url;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+window.openLightbox = openLightbox;
+window.closeLightbox = closeLightbox;
+
+// --- FAB + KIT ---
+function toggleKit() {
+  const modal   = document.getElementById('kitModal');
+  const overlay = document.getElementById('kitOverlay');
+  const btn     = document.getElementById('fabBtn');
+  const icon    = document.getElementById('fabIcon');
+  const navbar  = document.getElementById('navbar');
+  const open    = modal.classList.contains('open');
+  modal.classList.toggle('open', !open);
+  overlay.classList.toggle('open', !open);
+  btn.classList.toggle('active', !open);
+  icon.className = open ? 'bi bi-compass' : 'bi bi-x-lg';
+  navbar.style.display = open ? '' : 'none';
+}
+function closeKit() {
+  document.getElementById('kitModal').classList.remove('open');
+  document.getElementById('kitOverlay').classList.remove('open');
+  document.getElementById('fabBtn').classList.remove('active');
+  document.getElementById('fabIcon').className = 'bi bi-compass';
+  document.getElementById('navbar').style.display = '';
+}
+window.toggleKit = toggleKit;
+window.closeKit  = closeKit;
+
+// --- SUB-MODALS ---
+const subContents = {
+  brosur: () => `
+    <div class="sub-title"><i class="bi bi-file-earmark-pdf"></i> Brosur Paket Umroh</div>
+    <p style="font-size:13px;color:var(--c-text-2);margin-bottom:18px;line-height:1.7">Download brosur lengkap dalam format PDF. Berisi detail paket, fasilitas, jadwal, dan harga terbaru.</p>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      ${cfg.kit.brochures.map(b => `<a href="${b.url}" class="btn btn-primary btn-block"><i class="bi bi-download"></i> ${b.label}</a>`).join('')}
+    </div>
+    <p style="font-size:11px;color:var(--c-text-2);margin-top:12px;text-align:center">Update terakhir: ${cfg.kit.brochureUpdated}</p>`,
+
+  legal: () => `
+    <div class="sub-title"><i class="bi bi-patch-check"></i> Legalitas Resmi</div>
+    ${cfg.legalItems.map(l => `
+      <div class="legal-item" style="border:none;border-bottom:1px solid var(--c-border);padding:14px 0">
+        <div class="legal-icon"><i class="bi ${l.icon}"></i></div>
+        <div class="legal-text"><strong>${l.title}</strong><span>${l.desc}</span></div>
+        ${l.verified
+          ? `<span class="legal-verify verified"><i class="bi bi-check-circle-fill"></i> ${l.verifyLabel}</span>`
+          : `<a href="${l.verifyUrl}" class="legal-verify check" target="_blank">${l.verifyLabel} <i class="bi bi-box-arrow-up-right"></i></a>`}
+      </div>`).join('')}`,
+
+  profil: () => `
+    <div class="sub-title"><i class="bi bi-building"></i> Profil ${cfg.brand.name}</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px">
+      ${cfg.kit.companyProfile.stats.map(s => `
+        <div style="background:var(--c-bg-alt);border-radius:10px;padding:14px 10px;text-align:center">
+          <div style="font-family:var(--f-display);font-size:22px;font-weight:700;color:var(--c-primary)">${s.value}</div>
+          <div style="font-size:10px;color:var(--c-text-2);margin-top:3px">${s.label}</div>
+        </div>`).join('')}
+    </div>
+    <p style="font-size:13px;color:var(--c-text-2);line-height:1.75">${cfg.kit.companyProfile.description}</p>`,
+
+  qr: () => {
+    const url = `https://profilink.id/salamtravel/${cfg.agent.slug}`;
+    return `
+    <div class="sub-title"><i class="bi bi-qr-code"></i> QR Code Halaman Ini</div>
+    <div class="qr-wrap">
+      <div class="qr-box"><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(url)}" alt="QR"></div>
+      <div class="qr-url">Link: <strong>profilink.id/salamtravel/${cfg.agent.slug}</strong></div>
+      <a href="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=${encodeURIComponent(url)}" download class="btn btn-primary" style="max-width:220px;margin:0 auto"><i class="bi bi-download"></i> Download PNG</a>
+      <p style="font-size:11px;color:var(--c-text-2);margin-top:12px">Cetak di kartu nama, poster, atau story IG</p>
+    </div>`;
+  },
+
+  compare: () => `
+    <div class="sub-title"><i class="bi bi-bar-chart-line"></i> Perbandingan Paket</div>
+    <div style="overflow-x:auto">
+    <table class="compare-table">
+      <thead><tr><th>Fitur</th>${cfg.packages.map(p => `<th>${p.name.split(' ').slice(-2).join(' ')}</th>`).join('')}</tr></thead>
+      <tbody>
+        <tr><td>Durasi</td>${cfg.packages.map(p => `<td>${p.duration}</td>`).join('')}</tr>
+        <tr><td>Hotel Makkah</td>${cfg.packages.map(p => `<td>${p.hotelMakkah}</td>`).join('')}</tr>
+        <tr><td>Hotel Madinah</td>${cfg.packages.map(p => `<td>${p.hotelMadinah}</td>`).join('')}</tr>
+        <tr><td>Fasilitas</td>${cfg.packages.map(p => `<td>${p.features.map(f => f.text).join(', ')}</td>`).join('')}</tr>
+        <tr><td>Harga</td>${cfg.packages.map(p => `<td class="price-cell">${fmtRp(p.price)}</td>`).join('')}</tr>
+      </tbody>
+    </table>
+    </div>
+    <a href="#paket" class="btn btn-primary btn-block" style="margin-top:16px" onclick="closeSub()">Lihat Semua Paket <i class="bi bi-arrow-down"></i></a>`,
+
+  kalc: () => `
+    <div class="sub-title"><i class="bi bi-calculator"></i> Kalkulator Cicilan</div>
+    <label class="kalc-label">Jumlah peserta</label>
+    <select class="kalc-select" id="kPeserta">
+      <option value="1">1 orang (sendiri)</option>
+      <option value="2">2 orang (berdua)</option>
+      <option value="4">4 orang (keluarga)</option>
+    </select>
+    <label class="kalc-label">Pilih paket</label>
+    <select class="kalc-select" id="kPaket">
+      ${cfg.packages.map(p => `<option value="${p.price}">${p.name} — ${fmtRp(p.price)}/orang</option>`).join('')}
+    </select>
+    <label class="kalc-label">Tenor cicilan</label>
+    <select class="kalc-select" id="kTenor">
+      <option value="12">12 bulan</option>
+      <option value="24">24 bulan</option>
+      <option value="30" selected>30 bulan</option>
+    </select>
+    <button class="btn btn-primary btn-block" onclick="hitungCicilan()">Hitung Sekarang</button>
+    <div class="kalc-result" id="kResult">
+      <div class="kalc-result-title" id="kTitle"></div>
+      <div class="kalc-row"><span>Total harga</span><span id="kTotal"></span></div>
+      <div class="kalc-row"><span>Cicilan per bulan</span><span id="kCicil"></span></div>
+      <div class="kalc-row"><span>Tenor</span><span id="kTenorOut"></span></div>
+      <a href="#" class="btn btn-wa btn-block" style="margin-top:14px" id="kWaBtn" target="_blank"><i class="bi bi-whatsapp"></i> Daftar dengan Cicilan Ini</a>
+    </div>`
+};
+
+function openSub(key) {
+  closeKit();
+  document.getElementById('subContent').innerHTML = subContents[key]();
+  document.getElementById('subOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  if (key === 'kalc') {
+    setTimeout(() => {
+      window.hitungCicilan = function () {
+        const peserta = +document.getElementById('kPeserta').value;
+        const harga   = +document.getElementById('kPaket').value;
+        const tenor   = +document.getElementById('kTenor').value;
+        const total   = peserta * harga;
+        const cicil   = Math.ceil(total / tenor);
+        document.getElementById('kTitle').textContent = `${peserta} orang · ${tenor} bulan`;
+        document.getElementById('kTotal').textContent  = fmtRp(total);
+        document.getElementById('kCicil').textContent  = fmtRp(cicil) + '/bln';
+        document.getElementById('kTenorOut').textContent = tenor + ' bulan';
+        const msg = `Assalamu'alaikum, saya ingin cicil umroh.\nTotal: ${fmtRp(total)}, cicil ${fmtRp(cicil)}/bln × ${tenor} bln 🙏`;
+        document.getElementById('kWaBtn').href = waLink(cfg.agent.wa, msg);
+        document.getElementById('kResult').classList.add('show');
+      };
+    }, 50);
+  }
+}
+function closeSub(e) {
+  if (e && e.target !== document.getElementById('subOverlay')) return;
+  document.getElementById('subOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+window.openSub  = openSub;
+window.closeSub = closeSub;
+
+// --- MITRA MODAL ---
+function openMitra() {
+  document.getElementById('mitraOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeMitra() {
+  document.getElementById('mitraOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+  document.getElementById('mitraSuccess').classList.remove('show');
+  document.getElementById('mitraFormWrap').style.display = 'block';
+  document.getElementById('mitraNama').value = '';
+  document.getElementById('mitraWa').value = '';
+  document.getElementById('mitraAlamat').value = '';
+}
+function closeMitraOutside(e) {
+  if (e.target === document.getElementById('mitraOverlay')) closeMitra();
+}
+function kirimMitra() {
+  const nama   = document.getElementById('mitraNama').value.trim();
+  const wa     = document.getElementById('mitraWa').value.trim();
+  const alamat = document.getElementById('mitraAlamat').value.trim();
+
+  if (!nama || !wa || !alamat) {
+    showToast('Mohon isi nama, WA, dan alamat terlebih dahulu');
+    return;
+  }
+
+  // tampilkan sukses
+  document.getElementById('mitraFormWrap').style.display = 'none';
+  document.getElementById('mitraSuccess').classList.add('show');
+
+  // buka WA otomatis setelah 2 detik
+  setTimeout(() => {
+    const msg = `Assalamu'alaikum Pak Yusuf 🙏\n\nSaya ingin mendaftar sebagai Mitra Agent Salam Travel.\n\n*Nama:* ${nama}\n*No. WA:* ${wa}\n*Alamat:* ${alamat}\n\nMohon informasi selanjutnya. Terima kasih 🌙`;
+    window.open(waLink(cfg.mitra.waNumber, msg), '_blank');
+    closeMitra();
+  }, 2200);
+}
+window.openMitra         = openMitra;
+window.closeMitra        = closeMitra;
+window.closeMitraOutside = closeMitraOutside;
+window.kirimMitra        = kirimMitra;
+
+// --- SALIN LINK ---
+function salinLink() {
+  const url = `https://profilink.id/salamtravel/${cfg.agent.slug}`;
+  navigator.clipboard.writeText(url).then(() => { closeKit(); showToast('Link tersalin!'); })
+    .catch(() => showToast('Gagal menyalin'));
+}
+window.salinLink = salinLink;
+
+// --- TOAST ---
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  document.getElementById('toastText').textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+window.showToast = showToast;
+</script>
+</body>
+</html>
