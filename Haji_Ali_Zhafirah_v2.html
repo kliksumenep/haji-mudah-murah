@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="zhafirah-navy-gold">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Haji Ali — Haji Plus Zhafirah, Perwakilan Sumenep</title>
+<meta name="description" content="Berangkat haji itu mudah & murah. Konsultasi gratis dengan Haji Ali, perwakilan Zhafirah Travel Umroh & Haji di Sumenep.">
+<meta property="og:title" content="Haji Ali — Haji Plus Zhafirah, Sumenep">
+<meta property="og:description" content="Yang sulit cuma satu: memulai. Konsultasi gratis lewat WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<style>
+/* TOKEN WARNA & FONT: ganti di sini. Warna = perkiraan dari tampilan zhafirah.co.id, cek ulang ke file logo */
+:root{--navy:#143F6B;--navy-dk:#0C2A4A;--navy-lt:#E8EFF7;--gold:#D4AC37;--gold-dk:#A8841C;--gold-lt:#FBF4DC;--tosca:#2A9D9A;--ink:#14202E;--mut:#58697B;--bg:#F6F8FB;--line:#DCE4EE;--wa:#1FAF55;
+--fd:'Lora',Georgia,serif;--fb:'Plus Jakarta Sans',system-ui,sans-serif;--w:520px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:var(--fb);color:var(--ink);background:var(--bg);line-height:1.6;font-size:15.5px;padding-bottom:20px;-webkit-text-size-adjust:100%}
+.w{max-width:var(--w);margin:0 auto;padding:0 20px}
+.page{max-width:var(--w);margin:0 auto;background:#fff;box-shadow:0 0 40px rgba(12,42,74,.12);overflow:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+h2{font-family:var(--fd);font-size:25px;line-height:1.25;color:var(--navy);margin-bottom:10px}
+.sec{padding:52px 0}.alt{background:var(--navy-lt)}
+.lead{color:var(--mut);margin-bottom:22px}
+.todo{background:#FFF1C2;border:1px dashed var(--gold-dk);border-radius:6px;padding:1px 6px;font-size:.92em}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.btn{display:flex;align-items:center;justify-content:center;gap:9px;border-radius:999px;padding:15px 22px;font-weight:700;font-size:16px;text-decoration:none;border:0;cursor:pointer;font-family:var(--fb);transition:transform .15s}
+.btn:active{transform:scale(.97)}
+.b-gold{background:var(--gold);color:var(--navy-dk);box-shadow:0 8px 22px rgba(212,172,55,.4)}
+.b-ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.5)}
+.b-wa{background:var(--wa);color:#fff}
+.b-out{background:#fff;color:var(--navy);border:1.5px solid var(--navy)}
+.ic{width:20px;height:20px;fill:currentColor;flex:none}
+/* HEADER */
+.top{position:sticky;top:0;z-index:50}
+.strip{background:var(--navy-dk);color:#cfe0f1;font-size:11.5px;text-align:center;padding:5px 10px;padding-top:calc(5px + env(safe-area-inset-top,0px))}
+.strip b{color:var(--gold);font-weight:600}
+.bar{background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px;padding:9px 16px;padding-top:calc(9px + env(safe-area-inset-top,0px))}
+.av{width:38px;height:38px;border-radius:50%;background:var(--navy) center/cover;color:var(--gold);display:grid;place-items:center;font-family:var(--fd);font-weight:700;border:2px solid var(--gold);flex:none}
+.bar .nm{line-height:1.2;flex:1;min-width:0}.nm b{display:block;font-size:14.5px;color:var(--navy)}.nm span{font-size:11.5px;color:var(--mut)}
+.bar .btn{padding:8px 14px;font-size:13px;box-shadow:none}
+/* HERO */
+.hero{position:relative;min-height:640px;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;background:var(--navy-dk);isolation:isolate}
+.hero-img{position:absolute;inset:0;z-index:-2;background:center top/cover no-repeat,radial-gradient(circle at 50% 18%,#1d5a96 0%,var(--navy) 45%,var(--navy-dk) 100%)}
+.hero.nophoto .hero-img{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Cpath d='M32 5l6 14 14-6-6 14 14 6-14 6 6 14-14-6-6 14-6-14-14 6 6-14-14-6 14-6-6-14 14 6z' fill='none' stroke='%23D4AC37' stroke-opacity='.22'/%3E%3C/svg%3E"),radial-gradient(circle at 50% 18%,#1d5a96 0%,var(--navy) 45%,var(--navy-dk) 100%)}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(12,42,74,.2) 0%,rgba(12,42,74,.5) 38%,rgba(12,42,74,.97) 80%)}
+.arch{display:none;width:200px;height:250px;margin:34px auto 6px;border:2px dashed var(--gold);border-radius:100px 100px 14px 14px;color:var(--gold);text-align:center;font-size:12.5px;padding:96px 18px 0;background:rgba(255,255,255,.05)}
+.hero.nophoto .arch{display:block}
+.hero .w{padding-bottom:30px;padding-top:150px}.hero.nophoto .w{padding-top:14px}
+.chip{display:inline-block;background:rgba(212,172,55,.16);border:1px solid var(--gold);color:#F3DC8C;border-radius:999px;padding:5px 13px;font-size:12.5px;font-weight:600;margin-bottom:14px}
+.hero h1{font-family:var(--fd);font-size:33px;line-height:1.16;font-weight:700;letter-spacing:-.2px}
+.hero h1 span{display:block;color:var(--gold);font-weight:600;font-style:italic;font-size:27px;margin-top:6px}
+.hero .sub{margin:16px 0 18px;color:#dbe7f3;font-size:15.5px;max-width:46ch}
+.ticks{list-style:none;display:grid;gap:7px;margin-bottom:22px}
+.ticks li{display:flex;gap:9px;font-size:14px;color:#fff}.ticks li::before{content:"✔";color:var(--gold);font-weight:700}
+.ctas{display:grid;grid-template-columns:1.2fr 1fr;gap:10px}.ctas .btn{padding:13px 10px;font-size:14px;gap:7px;white-space:nowrap}
+.micro{font-size:12.5px;color:#a9c0d8;text-align:center;margin-top:11px}
+.scar{margin-top:16px;border-left:3px solid var(--gold);padding:2px 0 2px 12px;font-size:13.5px;color:#f3e6b4;font-style:italic}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);background:var(--gold-lt);border-bottom:1px solid #ecdca0}
+.facts div{padding:14px 8px;text-align:center;font-size:11.5px;color:var(--mut);line-height:1.3;border-right:1px solid #ecdca0}.facts div:last-child{border:0}
+.facts b{display:block;font-family:var(--fd);font-size:19px;color:var(--navy)}
+/* CERMIN */
+.mir{list-style:none;display:grid;gap:10px}
+.mir li{background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:14px 14px 14px 48px;position:relative;cursor:pointer;transition:.2s;font-size:14.5px}
+.mir li::before{content:"";position:absolute;left:14px;top:14px;width:22px;height:22px;border-radius:50%;border:2px solid var(--line)}
+.mir li.on{border-color:var(--gold);background:var(--gold-lt)}
+.mir li.on::before{background:var(--gold) no-repeat center/13px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12l5 5 9-10' fill='none' stroke='%230C2A4A' stroke-width='3'/%3E%3C/svg%3E");border-color:var(--gold)}
+.reply{margin-top:16px;font-family:var(--fd);font-style:italic;color:var(--navy);font-size:17px;opacity:.35;transition:.4s}.reply.on{opacity:1}
+/* KENAL */
+.kenal{display:grid;gap:18px}
+.ph2{aspect-ratio:4/5;border-radius:150px 150px 18px 18px;background:var(--navy) center/cover;border:3px solid var(--gold);display:grid;place-items:center;color:var(--gold);font-size:13px;text-align:center;padding:20px;width:78%;margin:0 auto}
+blockquote{font-family:var(--fd);font-size:20px;line-height:1.4;color:var(--navy);border-left:4px solid var(--gold);padding-left:14px;margin:6px 0 12px}
+/* LANGKAH */
+.steps{list-style:none;counter-reset:s;display:grid;gap:0}
+.steps li{counter-increment:s;position:relative;padding:0 0 24px 58px}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:40px;height:40px;border-radius:50%;background:var(--navy);color:var(--gold);font-family:var(--fd);font-weight:700;display:grid;place-items:center;font-size:18px}
+.steps li::after{content:"";position:absolute;left:19px;top:44px;bottom:4px;width:2px;background:var(--line)}.steps li:last-child::after{display:none}
+.steps b{display:block;color:var(--navy);font-size:16.5px}.steps span{color:var(--mut);font-size:14.5px}
+.note{background:var(--gold-lt);border-radius:12px;padding:13px 15px;font-size:14px;color:#5a4a12}
+/* KALKULATOR */
+.calc{background:var(--navy-dk);color:#fff;border-radius:22px;padding:24px 20px;box-shadow:0 14px 34px rgba(12,42,74,.28)}
+.calc h2{color:#fff;font-size:22px}.calc p{color:#b9cde2;font-size:14px;margin-bottom:16px}
+.big{font-family:var(--fd);font-size:36px;color:var(--gold);line-height:1}.big small{font-size:14px;color:#b9cde2;font-family:var(--fb)}
+input[type=range]{width:100%;margin:18px 0;accent-color:var(--gold);height:30px}
+.res{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:16px}
+.res div{background:rgba(255,255,255,.08);border-radius:12px;padding:10px 6px;text-align:center;font-size:11.5px;color:#b9cde2}.res b{display:block;font-size:15.5px;color:#fff}
+.calc .fine{font-size:11.5px;color:#8fa9c4;margin:12px 0 0;text-align:center}
+/* PAKET */
+.pk{display:grid;gap:14px}
+.card{background:#fff;border:1.5px solid var(--line);border-radius:20px;padding:22px 20px;position:relative}
+.card.hot{border:2px solid var(--gold);box-shadow:0 10px 28px rgba(212,172,55,.22)}
+.badge{position:absolute;top:-12px;right:18px;background:var(--gold);color:var(--navy-dk);font-size:12px;font-weight:700;border-radius:999px;padding:3px 12px}
+.card h3{font-family:var(--fd);color:var(--navy);font-size:22px}.card em{color:var(--tosca);font-size:13.5px;font-style:normal;font-weight:600}
+.price{font-family:var(--fd);font-size:30px;color:var(--navy);margin:8px 0 10px}.price small{font-family:var(--fb);font-size:12.5px;color:var(--mut)}
+.card ul{list-style:none;display:grid;gap:6px;font-size:14px;color:var(--mut);margin-bottom:16px}.card li::before{content:"•";color:var(--gold-dk);margin-right:8px;font-weight:700}
+.card .btn{padding:12px;font-size:14.5px;border:1.5px solid var(--navy);color:var(--navy);background:#fff}.card.hot .btn{background:var(--navy);color:#fff}
+.small{font-size:12.5px;color:var(--mut);margin-top:14px}
+/* AMAN */
+.aman{display:grid;gap:12px}.aman div{background:#fff;border-radius:14px;padding:15px 16px;border-left:4px solid var(--tosca);font-size:14.5px}.aman b{display:block;color:var(--navy)}
+.logo{height:42px;width:auto;margin:0 0 18px}
+/* FAQ */
+details{background:#fff;border:1.5px solid var(--line);border-radius:14px;margin-bottom:10px;overflow:hidden}
+summary{padding:15px 44px 15px 16px;font-weight:600;color:var(--navy);cursor:pointer;list-style:none;position:relative;font-size:15px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:16px;top:10px;font-size:24px;color:var(--gold-dk);transition:.2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 16px 16px;color:var(--mut);font-size:14.5px}
+/* PENUTUP */
+.close{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-dk) 100%);color:#fff;text-align:center;padding:60px 0}
+.close h2{color:#fff;font-size:27px;line-height:1.3}.close h2 span{color:var(--gold);font-style:italic;display:block;margin-top:8px}
+.close p{color:#b9cde2;margin:14px 0 24px}
+footer{background:var(--navy-dk);color:#9fb6cd;font-size:13px;padding:34px 0 24px}
+footer b{color:#fff}footer p{margin-bottom:10px}footer .logo{filter:none}
+.disc{border-top:1px solid rgba(255,255,255,.12);padding-top:14px;margin-top:16px;font-size:11.5px;line-height:1.5}
+/* STICKY WA */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));background:linear-gradient(0deg,#fff 70%,rgba(255,255,255,0))}
+.sticky .btn{max-width:var(--w);margin:0 auto;box-shadow:0 8px 22px rgba(31,175,85,.4)}
+.bub{position:fixed;right:max(16px,calc(50% - var(--w)/2 + 16px));bottom:calc(86px + env(safe-area-inset-bottom,0px));z-index:61;max-width:250px;background:#fff;border:1.5px solid var(--gold);border-radius:16px 16px 4px 16px;padding:11px 30px 11px 14px;font-size:13.5px;color:var(--navy);box-shadow:0 10px 26px rgba(12,42,74,.22);display:none}
+.bub.show{display:block;animation:pop .35s}.bub button{position:absolute;right:6px;top:6px;width:22px;height:22px;padding:0;background:none;border:0;color:var(--mut);cursor:pointer;display:grid;place-items:center}.bub svg{width:10px;height:10px;display:block}
+.fab{position:fixed;right:max(16px,calc(50% - var(--w)/2 + 16px));bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:70;width:54px;height:54px;padding:0;border-radius:50%;border:2px solid var(--gold);background:var(--navy);color:var(--gold);display:grid;place-items:center;font-size:23px;cursor:pointer;box-shadow:0 8px 22px rgba(12,42,74,.4);transition:background .25s,color .25s}
+.fab i{display:block;line-height:1}.fab.on{background:#fff;color:var(--navy);border-color:var(--navy)}
+.ov{position:fixed;inset:0;background:rgba(12,42,74,.45);backdrop-filter:blur(4px);z-index:80;opacity:0;pointer-events:none;transition:opacity .25s}.ov.on{opacity:1;pointer-events:auto}
+.kit,.sh{position:fixed;left:50%;top:50%;z-index:90;background:#fff;border-radius:22px;box-shadow:0 24px 60px rgba(12,42,74,.35);opacity:0;pointer-events:none;transform:translate(-50%,-47%) scale(.96);transition:opacity .28s,transform .28s}
+.kit.on,.sh.on{opacity:1;pointer-events:auto;transform:translate(-50%,-50%)}
+.kit{width:calc(100vw - 36px);max-width:370px;overflow:hidden}
+.kh{padding:16px 56px 12px 18px;background:var(--navy-lt);border-bottom:1px solid var(--line);position:relative}
+.kh b{font-family:var(--fd);font-size:18px;color:var(--navy);display:flex;gap:8px;align-items:center}.kh span{font-size:12px;color:var(--mut)}
+.x{position:absolute;top:12px;right:12px;width:32px;height:32px;padding:0;border:0;border-radius:50%;background:var(--line);color:var(--navy);display:grid;place-items:center;line-height:0;cursor:pointer}
+.x svg{width:13px;height:13px;display:block}
+.ki{display:flex;align-items:center;gap:12px;width:100%;padding:10px 18px;background:none;border:0;text-align:left;cursor:pointer;font-family:var(--fb);color:inherit}.ki:hover{background:var(--bg)}
+.kic{width:36px;height:36px;border-radius:9px;background:var(--navy-lt);color:var(--navy);display:grid;place-items:center;font-size:16px;flex:none}
+.ki b{display:block;font-size:13.5px;color:var(--navy)}.ki small{font-size:11.5px;color:var(--mut)}.ki>i{margin-left:auto;color:var(--mut);font-size:12px}
+.kit hr{border:0;border-top:1px solid var(--line);margin:4px 0}.kit>.btn{margin:8px 18px 16px;padding:12px}
+.sh{width:calc(100vw - 28px);max-width:420px;max-height:84vh;overflow:auto;padding:22px 18px 18px}
+.sh h3{font-family:var(--fd);color:var(--navy);font-size:21px;margin:0 40px 12px 0}
+.sh table{width:100%;border-collapse:collapse;font-size:12.5px}.sh td,.sh th{border-bottom:1px solid var(--line);padding:8px 5px;text-align:left;vertical-align:top}.sh th{color:var(--navy)}
+.sh p,.sh li{font-size:14px;color:var(--mut)}.sh ul{padding-left:18px;display:grid;gap:5px;margin:8px 0}.sh a:not(.btn){color:var(--navy);font-weight:600}
+.sh .btn{margin-top:14px;padding:12px}
+.ofc{aspect-ratio:16/9;border-radius:14px;background:var(--navy-lt) center/cover;border:2px dashed var(--gold-dk);display:grid;place-items:center;color:var(--gold-dk);font-size:13px;text-align:center;margin:0 0 14px}.ofc.has{border:0}
+@keyframes pop{from{transform:translateY(10px);opacity:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media(min-width:700px){.hero{min-height:720px}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><symbol id="wa" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.8-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.1.1.6-.1 1.2z"/></symbol></svg>
+
+<div class="page">
+<header class="top">
+  <div class="bar">
+    <div class="av" id="av">H</div>
+    <div class="nm"><b data-t="agent.name">Haji Ali</b><span data-t="agent.title">Perwakilan Zhafirah Sumenep</span></div>
+    <a class="btn b-out" data-wa="Assalamu'alaikum Haji Ali, saya ingin konsultasi Haji Plus Zhafirah.">Tanya Haji Ali</a>
+  </div>
+</header>
+
+<section class="hero nophoto" id="hero">
+  <div class="hero-img" id="heroImg"></div>
+  <div class="arch">Foto Haji Ali<br>(letakkan di siteConfig.agent.heroImage)</div>
+  <div class="w">
+    <span class="chip">Haji Plus untuk warga Sumenep dan Madura</span>
+    <h1>Berangkat Haji Itu Mudah &amp; Murah.<span>Yang sulit cuma satu: memulai.</span></h1>
+    <p class="sub">Bapak/Ibu tidak perlu menunggu “nanti kalau uangnya cukup”. Mulai bertahap lewat program bank syariah, sementara nomor porsi haji khusus Anda mulai berjalan. Satu langkah kecil hari ini, dan suatu hari Anda berdiri di depan Ka’bah.</p>
+    <ul class="ticks"><li>Travel resmi, berizin PPIU dan PIHK</li><li>Dana di rekening bank, bukan di kantong travel</li><li>Didampingi langsung Haji Ali di Sumenep</li></ul>
+    <div class="ctas">
+      <a class="btn b-gold" data-wa="Assalamu'alaikum Haji Ali, saya ingin konsultasi gratis Haji Plus Zhafirah."><i class="bi bi-whatsapp"></i>Konsultasi Gratis</a>
+      <a class="btn b-ghost" href="#hitung"><i class="bi bi-calculator"></i>Hitung Setoran</a>
+    </div>
+    <p class="micro">Konsultasi gratis. Tanpa kewajiban daftar.</p>
+    <p class="scar">Urutan nomor porsi mengikuti tanggal daftar. Setiap hari menunda, antrean Anda mundur satu hari.</p>
+  </div>
+</section>
+<div class="facts"><div><b>6–7 th</b>estimasi masa tunggu haji khusus*</div><div><b>USD 10.000</b>paket Haji Plus mulai dari</div><div><b>Rp80 rb</b>contoh setoran per hari**</div></div>
+
+<section class="sec"><div class="w">
+  <h2>Mungkin ini yang Bapak/Ibu rasakan…</h2>
+  <p class="lead">Ketuk yang sesuai dengan Anda.</p>
+  <ul class="mir" id="mir">
+    <li tabindex="0">Sudah lama ingin ke Tanah Suci, tapi selalu ada yang lebih mendesak.</li>
+    <li tabindex="0">Takut travel bodong, pernah dengar jamaah gagal berangkat.</li>
+    <li tabindex="0">Dengar haji antre belasan tahun, pelan-pelan berhenti berharap.</li>
+    <li tabindex="0">Bingung: boleh tidak haji dicicil? Halalkah?</li>
+  </ul>
+  <p class="reply" id="reply">Kalau Anda mengangguk pada salah satunya, itu wajar. Dan semuanya bisa dijawab, satu per satu.</p>
+</div></section>
+
+<section class="sec alt"><div class="w kenal">
+  <div class="ph2" id="ph2">Foto Haji Ali</div>
+  <div>
+    <h2>Kenal Haji Ali</h2>
+    <blockquote>“Saya tidak menjual paket. Saya mengantar tetangga sendiri ke Tanah Suci.”</blockquote>
+    <p class="todo">Isi 3 kalimat latar Haji Ali: asal desa, sejak kapan mendampingi jamaah, berapa jamaah yang sudah diberangkatkan.</p>
+    <p class="small">Bimbingan manasik para kyai dan ustadz (foto dan video 30 detik) bisa ditambahkan di sini, <b>dengan izin tertulis</b>.</p>
+  </div>
+</div></section>
+
+<section class="sec"><div class="w">
+  <h2>Haji itu mudah, cukup 3 langkah</h2>
+  <p class="lead">Tanpa antre berbelit, tanpa istilah yang membingungkan.</p>
+  <ol class="steps">
+    <li><b>Ngobrol dulu, gratis</b><span>Lewat WhatsApp. Haji Ali jelaskan pelan-pelan sampai Anda paham.</span></li>
+    <li><b>Daftar program di bank syariah</b><span>Bersama <span data-t="brand.bank">Bank Muamalat</span>, mulai ringan. Dana tercatat di rekening bank. <span class="todo">isi angka awal dari brosur bank</span></span></li>
+    <li><b>Nomor porsi haji khusus diproses</b><span>Anda mengikuti manasik sambil menunggu giliran, estimasi 6–7 tahun menurut Zhafirah.</span></li>
+  </ol>
+  <p class="note">Murah di langkah awal, bukan murahan di layanan: hotel setaraf bintang 4–5, maktab VIP, pembimbing bersertifikat.</p>
+</div></section>
+
+<section class="sec alt" id="hitung"><div class="w">
+  <div class="calc">
+    <h2>Berapa yang ringan untuk Anda?</h2>
+    <p>Geser untuk melihat setoran per hari Anda.</p>
+    <div class="big"><span id="vDay">Rp80.000</span> <small>per hari</small></div>
+    <input type="range" id="rng" min="20000" max="200000" step="10000" value="80000" aria-label="Setoran per hari">
+    <div class="res"><div><b id="vMon">-</b>per bulan</div><div><b id="vYr">-</b>per tahun</div><div><b id="v7">-</b>dalam 7 tahun</div></div>
+    <a class="btn b-gold" id="calcWa">Kirim hitungan ini ke Haji Ali</a>
+    <p class="fine">Simulasi sederhana, bukan penawaran. Besaran, DP, dan biaya administrasi mengikuti ketentuan bank dan Zhafirah.</p>
+  </div>
+</div></section>
+
+<section class="sec"><div class="w">
+  <h2>Pilih paket Haji Plus</h2>
+  <p class="lead">Semua paket sudah termasuk tiket pulang pergi, akomodasi, pembimbing dan petugas kesehatan, serta handling dan perlengkapan haji.</p>
+  <div class="pk">
+    <div class="card"><h3>Ikhtiar</h3><em>Langkah paling ringan</em><div class="price">USD 10.000</div>
+      <ul><li>Hotel setaraf bintang 4 sampai 5</li><li>Maktab VIP B Zona 1</li><li>Apartemen transit</li></ul>
+      <a class="btn" data-wa="Assalamu'alaikum Haji Ali, saya tertarik paket Haji Ikhtiar (USD 10.000).">Tanya paket Ikhtiar</a></div>
+    <div class="card hot"><span class="badge">Seimbang</span><h3>Tawadhu</h3><em>Nyaman dan terjangkau</em><div class="price">USD 14.000</div>
+      <ul><li>Hotel setaraf bintang 5</li><li>Maktab VIP B Zona 1</li><li>Apartemen transit</li></ul>
+      <a class="btn" data-wa="Assalamu'alaikum Haji Ali, saya tertarik paket Haji Tawadhu (USD 14.000).">Tanya paket Tawadhu</a></div>
+    <div class="card"><h3>Tawakal</h3><em>Paling nyaman</em><div class="price">USD 16.000</div>
+      <ul><li>Sofitel Madinah dan Swissotel Makkah (setaraf bintang 5)</li><li>Maktab VIP A Zona 1</li><li>Apartemen transit</li></ul>
+      <a class="btn" data-wa="Assalamu'alaikum Haji Ali, saya tertarik paket Haji Tawakal (USD 16.000).">Tanya paket Tawakal</a></div>
+  </div>
+  <p class="small">Harga dalam USD sesuai situs Zhafirah (data 2025). Kurs dan ketentuan mengikuti Zhafirah saat pendaftaran.</p>
+</div></section>
+
+<section class="sec alt"><div class="w">
+  <img class="logo" src="https://www.zhafirah.co.id/wp-content/uploads/2025/10/logo.png" alt="Zhafirah Travel Umroh & Haji" onerror="this.style.display='none'">
+  <h2>Aman dan resmi</h2>
+  <p class="lead">Uang Anda tidak disimpan di kantong travel.</p>
+  <div class="ofc" id="ofcA">Foto kantor perwakilan Sumenep</div>
+  <div class="aman">
+    <div><b>Dana di rekening bank</b>Pembayaran melalui bank syariah dan tercatat di buku tabungan Anda sendiri.</div>
+    <div><b>PT Zhafirah Mitra Madina</b>Biro umroh dan haji khusus, kantor pusat di Sleman, Yogyakarta. Melayani sejak 2010 <span class="todo">cek tahun ke akta</span>.</div>
+    <div><b>Izin PPIU 117/2019 dan PIHK 92/2020</b>Silakan cek langsung keaslian izin ke kementerian terkait sebelum mendaftar.</div>
+    <div><b>Perwakilan Sumenep</b>Bisa ditemui langsung di Jl. Teuku Umar No. 209, Kebonagung, Kota Sumenep.</div>
+  </div>
+  <p class="small"><a href="https://www.zhafirah.co.id" target="_blank" rel="noopener">Lihat profil lengkap Zhafirah di zhafirah.co.id</a></p>
+  <!-- Testimoni jamaah asli (Madura): tambahkan di sini setelah ada izin. Jangan isi data contoh. -->
+</div></section>
+
+<section class="sec"><div class="w">
+  <h2>Pertanyaan yang sering ditanyakan</h2><p class="lead">&nbsp;</p>
+  <details><summary>Haji dicicil, halalkah?</summary><p>Zhafirah menjelaskan bahwa pembiayaan porsi haji khusus mengacu pada sejumlah fatwa DSN-MUI. Haji Ali akan kirimkan penjelasan lengkapnya lewat WhatsApp.</p></details>
+  <details><summary>Apa bedanya Haji Plus dan haji reguler?</summary><p>Haji Plus diselenggarakan travel resmi dengan fasilitas lebih lengkap dan masa tunggu sekitar 6–7 tahun. Haji reguler diselenggarakan pemerintah dengan antrean yang umumnya lebih dari 15 tahun (menurut Zhafirah).</p></details>
+  <details><summary>Kalau berhenti menabung atau batal, bagaimana?</summary><p><span class="todo">Isi ketentuan resmi dari bank dan Zhafirah.</span> Tanyakan langsung ke Haji Ali sebelum mendaftar.</p></details>
+  <details><summary>Bisa untuk orang tua atau hadiah keluarga?</summary><p>Bisa didaftarkan atas nama orang tua atau anggota keluarga. Syarat: WNI, beragama Islam, usia minimal 12 tahun. Dokumen: KK, KTP/KIA, buku nikah (suami istri), akta lahir atau ijazah, dan pas foto.</p></details>
+  <details><summary>Ada biaya tambahan?</summary><p>Program bertahap umumnya memerlukan DP awal dan biaya administrasi sesuai ketentuan bank. Rinciannya dijelaskan sebelum Anda memutuskan.</p></details>
+</div></section>
+
+<section class="close"><div class="w">
+  <h2>Sepuluh tahun lagi Anda akan menoleh ke hari ini.<span>Ingin jadi orang yang menunda, atau yang memulai?</span></h2>
+  <p>Satu pesan singkat hari ini bisa jadi awal perjalanan Anda.</p>
+  <a class="btn b-gold" data-wa="Assalamu'alaikum Haji Ali, saya ingin mulai dan konsultasi Haji Plus.">Mulai Obrolan di WhatsApp</a>
+</div></section>
+
+<footer><div class="w">
+  <img class="logo" src="https://www.zhafirah.co.id/wp-content/uploads/2025/11/HORIZONTAL-PUTIH-scaled.png" alt="Zhafirah" onerror="this.style.display='none'">
+  <p><b>Perwakilan Zhafirah Sumenep</b><br><span data-t="agent.addr"></span></p>
+  <p><b>WhatsApp Haji Ali</b><br><a data-wa="Assalamu'alaikum Haji Ali" href="#" id="ftWa"></a></p>
+  <p><b>Kantor pusat</b><br><span data-t="brand.hq"></span></p>
+  <p class="disc">*Estimasi masa tunggu menurut Zhafirah. **Contoh simulasi setoran; ketentuan program mengikuti bank dan Zhafirah. Harga dalam USD, kurs mengikuti Zhafirah saat daftar. Kami tidak menjanjikan kepastian keberangkatan di luar ketentuan resmi penyelenggara dan pemerintah.</p>
+</div></footer>
+</div>
+
+<div class="bub" id="bub"><button aria-label="Tutup" id="bubX"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg></button>Ada pertanyaan soal cicilan haji? Tanya langsung ke Haji Ali.</div>
+<button class="fab" id="fab" aria-label="Buka menu" aria-expanded="false"><i class="bi bi-compass"></i></button>
+<div class="ov" id="ov"></div>
+<div class="kit" id="kit" role="dialog" aria-label="Menu Haji Ali">
+  <div class="kh"><b><i class="bi bi-stars"></i>Menu Haji Ali</b><span>Semua yang Anda butuhkan dalam satu tempat</span><button class="x" data-x aria-label="Tutup"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg></button></div>
+  <div id="ki"></div>
+  <a class="btn b-wa" data-wa="Assalamu'alaikum Haji Ali, saya ingin bertanya soal Haji Plus Zhafirah."><i class="bi bi-whatsapp"></i>Chat WhatsApp</a>
+</div>
+<div class="sh" id="sh" role="dialog" aria-label="Detail"><button class="x" data-x aria-label="Tutup"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg></button><div id="shc"></div></div>
+
+<script>
+/* ============ SITE CONFIG: ganti di sini untuk agen lain ============ */
+const siteConfig={
+  brand:{name:"Zhafirah Travel Umroh & Haji",bank:"Bank Muamalat",hq:"Ruko Kuning, Jl. Ring Road Utara No. 8D, Condongcatur, Depok, Sleman, DIY 55281"},
+  agent:{name:"Haji Ali",title:"Perwakilan Zhafirah Sumenep",wa:"6285607049950",
+    photo:"",      // foto bulat/arch Haji Ali (rasio 4:5)
+    heroImage:"",  // foto hero lebar, mis. Haji Ali bersama jamaah (portrait/landscape, wajah di bagian atas)
+    officePhoto:"", // foto kantor perwakilan Sumenep (rasio 16:9)
+    addr:"Jl. Teuku Umar No. 209, Kebonagung, Kota Sumenep, Madura, Jawa Timur 69413",
+    perDay:80000}
+};
+(function(){
+  const c=siteConfig,a=c.agent,$=s=>document.querySelector(s);
+  const wa=m=>`https://wa.me/${a.wa}?text=${encodeURIComponent(m)}`;
+  document.querySelectorAll("[data-t]").forEach(e=>{e.textContent=e.dataset.t.split(".").reduce((o,k)=>o&&o[k],c)||e.textContent});
+  document.querySelectorAll("[data-wa]").forEach(e=>{e.href=wa(e.dataset.wa);e.target="_blank";e.rel="noopener"});
+  $("#ftWa").textContent="+"+a.wa.replace(/^62/,"62 ").replace(/(\d{3})(\d{4})(\d+)$/,"$1-$2-$3");
+  if(a.heroImage){$("#hero").classList.remove("nophoto");$("#heroImg").style.backgroundImage=`url("${a.heroImage}")`}
+  if(a.photo){$("#av").style.backgroundImage=$("#ph2").style.backgroundImage=`url("${a.photo}")`;$("#av").textContent="";$("#ph2").textContent=""}
+  /* cermin */
+  const li=[...document.querySelectorAll("#mir li")];
+  const tg=e=>{if(e.type==="keydown"&&e.key!=="Enter"&&e.key!==" ")return;e.preventDefault();e.currentTarget.classList.toggle("on");$("#reply").classList.toggle("on",li.some(x=>x.classList.contains("on")))};
+  li.forEach(x=>{x.addEventListener("click",tg);x.addEventListener("keydown",tg)});
+  /* kalkulator */
+  const f=n=>n>=1e9?"Rp"+(n/1e9).toFixed(1).replace(".",",")+" M":n>=1e6?"Rp"+(n/1e6).toFixed(1).replace(".",",").replace(",0","")+" jt":"Rp"+n.toLocaleString("id-ID");
+  const r=$("#rng");
+  function calc(){const d=+r.value,m=d*30,y=d*365;
+    $("#vDay").textContent="Rp"+d.toLocaleString("id-ID");$("#vMon").textContent=f(m);$("#vYr").textContent=f(y);$("#v7").textContent=f(y*7);
+    $("#calcWa").href=wa(`Assalamu'alaikum Haji Ali, saya menghitung setoran haji Rp${d.toLocaleString("id-ID")} per hari (sekitar ${f(m)} per bulan). Mohon dijelaskan skema dan langkah berikutnya.`);$("#calcWa").target="_blank"}
+  r.value=a.perDay;r.addEventListener("input",calc);calc();
+  /* bubble di 50% scroll */
+  let shown=false;const b=$("#bub");
+  addEventListener("scroll",()=>{if(shown)return;const p=scrollY/(document.body.scrollHeight-innerHeight);if(p>.5){shown=true;b.classList.add("show");setTimeout(()=>b.classList.remove("show"),9000)}},{passive:true});
+  $("#bubX").onclick=()=>b.classList.remove("show");b.onclick=e=>{if(e.target.id!=="bubX")open(wa("Assalamu'alaikum Haji Ali, saya ingin bertanya soal cicilan haji."),"_blank")};
+
+  /* foto kantor */
+  const ofc=(cls)=>a.officePhoto?`<div class="ofc has" style="background-image:url('${a.officePhoto}')"></div>`:`<div class="ofc">Foto kantor perwakilan Sumenep</div>`;
+  if(a.officePhoto){const o=$("#ofcA");o.classList.add("has");o.style.backgroundImage=`url("${a.officePhoto}")`;o.textContent=""}
+  /* menu kompas */
+  const kitEl=$("#kit"),sh=$("#sh"),shc=$("#shc"),ov=$("#ov"),fab=$("#fab");
+  const W=(m,l)=>`<a class="btn b-wa" target="_blank" rel="noopener" href="${wa(m)}"><i class="bi bi-whatsapp"></i>${l}</a>`;
+  const T=(h,x)=>`<h3>${h}</h3>${x}`;
+  const map="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(a.addr);
+  const S={
+   paket:()=>T("Perbandingan Paket",`<table><tr><th></th><th>Ikhtiar</th><th>Tawadhu</th><th>Tawakal</th></tr><tr><td>Harga</td><td>USD 10.000</td><td>USD 14.000</td><td>USD 16.000</td></tr><tr><td>Hotel</td><td>Setaraf ★4–5</td><td>Setaraf ★5</td><td>Sofitel Madinah, Swissotel Makkah</td></tr><tr><td>Maktab</td><td>VIP B Zona 1</td><td>VIP B Zona 1</td><td>VIP A Zona 1</td></tr><tr><td>Transit</td><td>Apartemen</td><td>Apartemen</td><td>Apartemen</td></tr></table><p style="margin-top:10px;font-size:12.5px">Harga USD sesuai situs Zhafirah (2025). Kurs mengikuti Zhafirah saat daftar.</p>`+W("Assalamu'alaikum Haji Ali, saya ingin membandingkan paket Haji Plus Zhafirah.","Tanya paket yang cocok")),
+   syarat:()=>T("Syarat dan Dokumen",`<ul><li>WNI, beragama Islam, usia minimal 12 tahun</li><li>KK dan KTP/KIA</li><li>Buku nikah (untuk suami istri)</li><li>Akta lahir atau ijazah</li><li>Pas foto</li></ul><p>Untuk program bertahap, bank biasanya meminta formulir pembiayaan, KTP pasangan, rekening koran 3 bulan, serta DP awal dan biaya administrasi. <span class="todo">cek ke ${c.brand.bank}</span></p>`+W("Assalamu'alaikum Haji Ali, saya ingin tahu dokumen yang perlu disiapkan untuk daftar Haji Plus.","Tanya Haji Ali")),
+   legal:()=>T("Legalitas dan Izin",`<ul><li><b>PT Zhafirah Mitra Madina</b>, kantor pusat di Sleman, Yogyakarta</li><li>Izin PPIU 117/2019 dan PIHK 92/2020 <span class="todo">cek nomor</span></li><li>Mitra bank: ${c.brand.bank}</li></ul><p>Sebelum mendaftar, cek keaslian izin langsung ke kementerian terkait.</p>`),
+   profil:()=>T("Profil Zhafirah",`<p>Zhafirah adalah biro perjalanan umroh dan haji khusus berpusat di Sleman, Yogyakarta, dengan produk Haji Plus, Umroh Reguler, MudahUmroh, dan Umroh Private.</p><ul><li><a href="https://www.zhafirah.co.id" target="_blank" rel="noopener">zhafirah.co.id</a></li><li><a href="https://www.instagram.com/zhafirahumrohhajiofficial/" target="_blank" rel="noopener">Instagram @zhafirahumrohhajiofficial</a></li><li>TikTok @zhafirahumrohhaji</li></ul><p>${c.brand.hq}</p>`),
+   lokasi:()=>T("Kantor Perwakilan Sumenep",ofc()+`<p><b>${a.title}</b><br>${a.addr}</p><a class="btn b-gold" href="${map}" target="_blank" rel="noopener"><i class="bi bi-geo-alt"></i>Buka di Google Maps</a>`),
+   bagi:()=>T("Bagikan Halaman",`<p>Kirim halaman ini ke keluarga atau teman yang ingin berhaji.</p><a class="btn b-wa" target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent("Info Haji Plus bersama Haji Ali (Zhafirah Sumenep): "+location.href)}"><i class="bi bi-whatsapp"></i>Kirim lewat WhatsApp</a><button class="btn b-out" id="cp" style="width:100%">Salin link</button>`)
+  };
+  const items=[["bar-chart-line","Perbandingan Paket","Tabel 3 paket Haji Plus","paket"],["calculator","Kalkulator Setoran","Hitung sesuai kemampuan Anda","hitung"],["card-checklist","Syarat dan Dokumen","Yang perlu disiapkan untuk daftar","syarat"],["patch-check","Legalitas dan Izin","PPIU, PIHK, bank mitra","legal"],["building","Profil Zhafirah","Tentang biro dan produknya","profil"],["geo-alt","Lokasi Kantor Sumenep","Alamat, foto, dan peta","lokasi"],["share","Bagikan Halaman","Kirim ke keluarga atau teman","bagi"]];
+  $("#ki").innerHTML=items.map((i,n)=>(n===6?"<hr>":"")+`<button class="ki" data-k="${i[3]}"><span class="kic"><i class="bi bi-${i[0]}"></i></span><span><b>${i[1]}</b><small>${i[2]}</small></span><i class="bi bi-chevron-right"></i></button>`).join("");
+  function kit(o){fab.classList.toggle("on",o);kitEl.classList.toggle("on",o);ov.classList.toggle("on",o||sh.classList.contains("on"));fab.firstElementChild.className=o?"bi bi-x-lg":"bi bi-compass";fab.setAttribute("aria-expanded",o)}
+  const closeAll=()=>{sh.classList.remove("on");kit(false)};
+  function sub(k){if(k==="hitung"){closeAll();$("#hitung").scrollIntoView();return}shc.innerHTML=S[k]();kit(false);sh.classList.add("on");ov.classList.add("on");sh.scrollTop=0}
+  fab.onclick=()=>{b.classList.remove("show");kitEl.classList.contains("on")?closeAll():kit(true)};
+  ov.onclick=closeAll;document.querySelectorAll("[data-x]").forEach(x=>x.onclick=closeAll);
+  $("#ki").onclick=e=>{const t=e.target.closest("[data-k]");if(t)sub(t.dataset.k)};
+  shc.onclick=e=>{if(e.target.id==="cp")navigator.clipboard.writeText(location.href).then(()=>e.target.textContent="Link tersalin")};
+  addEventListener("keydown",e=>{if(e.key==="Escape")closeAll()});
+})();
+</script>
+</body>
+</html>
